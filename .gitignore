@@ -3,5 +3,9 @@ dist/
 .env
 *.local
 
-# geocache contains no secrets but is large and regeneratable
+# geocache is regeneratable
 data/geocache.json
+
+# Raw data CSVs — keep private
+*.csv
+data/
