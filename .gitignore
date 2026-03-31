@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+*.local
+
+# geocache contains no secrets but is large and regeneratable
+data/geocache.json
