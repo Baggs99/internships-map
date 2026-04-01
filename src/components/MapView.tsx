@@ -1,6 +1,6 @@
 import { useEffect, useRef, useCallback } from 'react';
 import { Map as GoogleMap, useMap } from '@vis.gl/react-google-maps';
-import { MarkerClusterer } from '@googlemaps/markerclusterer';
+import { MarkerClusterer, SuperClusterAlgorithm } from '@googlemaps/markerclusterer';
 import type { Location } from '../types';
 
 // ------------------------------------------------------------------
@@ -159,12 +159,13 @@ function ClusterMarkers({ locations, selectedId, onSelectCity }: MarkersProps) {
     clustererRef.current = new MarkerClusterer({
       map,
       markers,
-      algorithmOptions: {
-        // Increase radius (default 60px) so nearby cities stay clustered longer
-        // before breaking into individual overlapping bubbles.
-        // Raise this value (e.g. 140) for even tighter clustering.
-        radius: 120,
-      },
+      // SuperClusterAlgorithm owns the `radius` option — passing it via
+      // `algorithmOptions` uses the generic AlgorithmOptions type which
+      // doesn't declare `radius`, causing a TS2353 build error.
+      // Instantiate the algorithm explicitly so TypeScript is satisfied.
+      // Raise radius (default 60) for tighter clustering; try 140–160 for
+      // even more aggressive grouping in dense regions like the Northeast.
+      algorithm: new SuperClusterAlgorithm({ radius: 120 }),
       renderer: {
         render({ position, markers: clusterMarkers }) {
           // Sum the actual intern counts stored on each marker's content element
