@@ -4,16 +4,32 @@ import { MarkerClusterer } from '@googlemaps/markerclusterer';
 import type { Location } from '../types';
 
 // ------------------------------------------------------------------
+// Marker sizing — sqrt scale for diminishing returns on large counts
+// Range: ~26px (1 intern) → 48px (50+ interns)
+// Tune MIN_SIZE / MAX_SIZE / SCALE_REF to adjust the spread
+// ------------------------------------------------------------------
+const MIN_SIZE = 26;
+const MAX_SIZE = 48;
+const SCALE_REF = 50; // intern count that maps to MAX_SIZE
+
+function markerSize(count: number): number {
+  const scale = Math.sqrt(Math.min(count, SCALE_REF) / SCALE_REF);
+  return Math.round(MIN_SIZE + (MAX_SIZE - MIN_SIZE) * scale);
+}
+
+// ------------------------------------------------------------------
 // Marker content helpers
 // ------------------------------------------------------------------
 
 function makeMarkerEl(count: number, selected: boolean): HTMLElement {
-  const size = count > 9 ? 36 : 30;
+  const size = markerSize(count);
+  const fontSize = size <= 30 ? 10 : size <= 38 ? 11 : 12;
   const bg = selected ? '#978D4F' : '#00356B';
-  const border = selected ? '2.5px solid #fff' : '2px solid rgba(255,255,255,0.9)';
+  // White border + shadow ensure readability even when bubbles are close together
+  const border = selected ? '2.5px solid #fff' : '2.5px solid rgba(255,255,255,0.95)';
   const shadow = selected
     ? '0 0 0 3px rgba(151,141,79,0.35), 0 3px 10px rgba(0,0,0,0.3)'
-    : '0 2px 8px rgba(0,53,107,0.35)';
+    : '0 2px 6px rgba(0,0,0,0.25), 0 0 0 1px rgba(0,53,107,0.15)';
 
   const div = document.createElement('div');
   div.style.cssText = [
@@ -25,7 +41,7 @@ function makeMarkerEl(count: number, selected: boolean): HTMLElement {
     'display:flex',
     'align-items:center',
     'justify-content:center',
-    'font-size:12px',
+    `font-size:${fontSize}px`,
     'font-weight:700',
     'font-family:Inter,system-ui,sans-serif',
     `border:${border}`,
@@ -53,7 +69,9 @@ function makeMarkerEl(count: number, selected: boolean): HTMLElement {
 }
 
 function makeClusterEl(count: number): HTMLElement {
-  const size = count > 80 ? 62 : count > 40 ? 54 : count > 15 ? 48 : 42;
+  // sqrt scale for clusters too — keeps large cluster bubbles from dominating
+  const size = Math.round(Math.min(66, 38 + 28 * Math.sqrt(Math.min(count, 160) / 160)));
+  const fontSize = size >= 58 ? 16 : size >= 50 ? 15 : 13;
   const div = document.createElement('div');
   div.style.cssText = [
     `width:${size}px`,
@@ -64,11 +82,11 @@ function makeClusterEl(count: number): HTMLElement {
     'display:flex',
     'align-items:center',
     'justify-content:center',
-    `font-size:${size > 50 ? 16 : 14}px`,
+    `font-size:${fontSize}px`,
     'font-weight:700',
     'font-family:Inter,system-ui,sans-serif',
-    'border:3px solid rgba(255,255,255,0.8)',
-    'box-shadow:0 3px 14px rgba(0,53,107,0.45)',
+    'border:3px solid rgba(255,255,255,0.9)',
+    'box-shadow:0 3px 14px rgba(0,0,0,0.25), 0 0 0 1px rgba(0,53,107,0.2)',
     'cursor:pointer',
   ].join(';');
   div.textContent = String(count);
@@ -141,6 +159,12 @@ function ClusterMarkers({ locations, selectedId, onSelectCity }: MarkersProps) {
     clustererRef.current = new MarkerClusterer({
       map,
       markers,
+      algorithmOptions: {
+        // Increase radius (default 60px) so nearby cities stay clustered longer
+        // before breaking into individual overlapping bubbles.
+        // Raise this value (e.g. 140) for even tighter clustering.
+        radius: 120,
+      },
       renderer: {
         render({ position, markers: clusterMarkers }) {
           // Sum the actual intern counts stored on each marker's content element
@@ -160,9 +184,20 @@ function ClusterMarkers({ locations, selectedId, onSelectCity }: MarkersProps) {
     // Fit map to show all markers
     const bounds = new google.maps.LatLngBounds();
     locations.forEach((l) => bounds.extend({ lat: l.lat, lng: l.lng }));
-    // Only auto-fit if we have multiple cities; single city zooms too close
+
     if (locations.length > 1) {
-      map.fitBounds(bounds, { top: 40, right: 20, bottom: 40, left: 20 });
+      // Extra padding gives more breathing room around the edges
+      map.fitBounds(bounds, { top: 80, right: 60, bottom: 80, left: 60 });
+
+      // For dense views (many cities), zoom out one extra level so clusters
+      // have room to form instead of immediately breaking into overlapping dots.
+      // Increase the threshold (e.g. > 20) if you want this to apply less often.
+      if (locations.length > 10) {
+        google.maps.event.addListenerOnce(map, 'idle', () => {
+          const z = map.getZoom();
+          if (z != null) map.setZoom(Math.max(2, z - 1));
+        });
+      }
     } else if (locations.length === 1) {
       map.setCenter({ lat: locations[0].lat, lng: locations[0].lng });
       map.setZoom(10);
@@ -228,8 +263,8 @@ export default function MapView({ locations, selectedId, mapId, onSelectCity }: 
   return (
     <div className="flex-1 relative overflow-hidden">
       <GoogleMap
-        defaultCenter={{ lat: 39.8283, lng: -98.5795 }}
-        defaultZoom={4}
+        defaultCenter={{ lat: 30, lng: -20 }}
+        defaultZoom={2}
         mapId={mapId}
         gestureHandling="greedy"
         disableDefaultUI={false}
