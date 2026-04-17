@@ -42,7 +42,7 @@ export default function Header({ summary, totalSummary }: Props) {
               Explore where classmates are interning by city, employer &amp; industry
             </p>
             <p className="text-blue-300/60 text-[10px] leading-tight mt-0.5">
-              Includes only students who self-reported &amp; authorized publication · As of Mar 25, 2025
+              Demo - Fake data
             </p>
           </div>
         </div>

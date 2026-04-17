@@ -64,7 +64,7 @@ export default function PasswordGate({ children }: { children: React.ReactNode }
       </form>
 
       <p className="mt-6 text-blue-300 text-xs">
-        Includes only students who self-reported &amp; authorized publication
+        Demo - Fake data
       </p>
 
       <style>{`
