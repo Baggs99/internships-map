@@ -37,6 +37,7 @@ const OUTPUT_FILE = path.join(OUTPUT_DIR, 'internships.json');
 interface RawRow {
   'First Name': string;
   'Last Name': string;
+  Cohort?: string;           // present in some CSVs (e.g. dummy data)
   Employer: string;
   'Detailed Industry': string;
   'Detailed Function': string;
@@ -359,6 +360,17 @@ function makeId(loc: NormalizedLocation): string {
 }
 
 // ---------------------------------------------------------------------------
+// CSV pre-processing — strip leading rows that are all-empty (e.g. ,,,,,,,,,)
+// before passing to csv-parse so the real header row is first
+// ---------------------------------------------------------------------------
+
+function stripLeadingEmptyLines(raw: string): string {
+  const lines = raw.split('\n');
+  const firstReal = lines.findIndex((l) => l.replace(/[,\s]/g, '').length > 0);
+  return firstReal > 0 ? lines.slice(firstReal).join('\n') : raw;
+}
+
+// ---------------------------------------------------------------------------
 // CSV discovery
 // ---------------------------------------------------------------------------
 
@@ -415,8 +427,10 @@ async function main() {
   // Find and parse CSV
   const csvFile = findCsvFile();
   console.log(`Reading CSV: ${path.relative(ROOT, csvFile)}`);
-  const raw = fs.readFileSync(csvFile, 'utf8');
-  const rows = parse(raw, {
+  const rawText = fs.readFileSync(csvFile, 'utf8');
+  // Strip any leading all-comma/blank rows (some exports add 2 empty rows before the header)
+  const cleanedText = stripLeadingEmptyLines(rawText);
+  const rows = parse(cleanedText, {
     columns: true,
     skip_empty_lines: true,
     trim: true,
@@ -506,7 +520,21 @@ async function main() {
     const loc = parseJobCity(jobCity, stateCol, countryCol);
     locationMap.set(loc.locationKey, loc);
 
-    const cohortResult = matchCohort(firstName, lastName, cohortLookup, matchStats);
+    // If the CSV already has a Cohort column, use it directly and skip matching
+    const inlineCohort = (row['Cohort'] ?? '').trim();
+    let cohort: string;
+    let graduationYear: number | undefined;
+
+    if (inlineCohort) {
+      // Normalize to Title Case (e.g. "GREEN" → "Green")
+      cohort = inlineCohort.charAt(0).toUpperCase() + inlineCohort.slice(1).toLowerCase();
+      matchStats.total++;
+      matchStats.exact++;
+    } else {
+      const cohortResult = matchCohort(firstName, lastName, cohortLookup, matchStats);
+      cohort = cohortResult.cohort;
+      graduationYear = cohortResult.graduationYear;
+    }
 
     rowData.push({
       person: {
@@ -515,10 +543,8 @@ async function main() {
         employer,
         industry,
         function: func,
-        cohort: cohortResult.cohort,
-        ...(cohortResult.graduationYear !== undefined
-          ? { graduationYear: cohortResult.graduationYear }
-          : {}),
+        cohort,
+        ...(graduationYear !== undefined ? { graduationYear } : {}),
       },
       locKey: loc.locationKey,
     });

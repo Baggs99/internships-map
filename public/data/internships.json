@@ -1,9 +1,9 @@
 {
   "summary": {
-    "totalInternships": 156,
-    "totalCities": 45,
-    "totalEmployers": 70,
-    "totalCountries": 9
+    "totalInternships": 193,
+    "totalCities": 15,
+    "totalEmployers": 28,
+    "totalCountries": 4
   },
   "locations": [
     {
@@ -14,462 +14,701 @@
       "displayName": "New York, NY",
       "lat": 40.7127281,
       "lng": -74.0060152,
-      "count": 49,
+      "count": 85,
       "topEmployers": [
-        "Barclays PLC",
-        "Bank of America",
-        "Morgan Stanley",
-        "Bain & Company, Inc.",
-        "Kearney"
+        "Meridian Consulting Group",
+        "Helix Health Systems",
+        "Ridgeway Securities",
+        "Thornfield Bank",
+        "Vantage Advisory"
       ],
       "cohortBreakdown": {
-        "GREEN": 12,
-        "GOLD": 4,
-        "BLUE": 13,
-        "RED": 12,
-        "SILVER": 8
+        "Green": 19,
+        "Gold": 10,
+        "Red": 26,
+        "Blue": 17,
+        "Silver": 13
       },
       "people": [
         {
-          "firstName": "Kane",
-          "lastName": "Akar",
-          "employer": "Bain & Company, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "John",
-          "lastName": "Athanasopoulos",
-          "employer": "Kearney",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Greg",
-          "lastName": "Ayvazov",
-          "employer": "OC&C Strategy Consultants",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Riya",
-          "lastName": "Bhattacharya",
-          "employer": "Oliver Wyman",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Sebastian",
-          "lastName": "Carpanini",
-          "employer": "Barclays PLC",
+          "firstName": "Pixie",
+          "lastName": "Acquisworth",
+          "employer": "Thornfield Bank",
           "industry": "Financial Services - Investment Banking/Brokerage",
           "function": "Finance - Investment Banking",
-          "cohort": "SILVER",
-          "graduationYear": 2027
+          "cohort": "Green"
         },
         {
-          "firstName": "Clare",
-          "lastName": "Carroll",
-          "employer": "Bain & Company, Inc.",
+          "firstName": "Gunnar",
+          "lastName": "Acquisworth",
+          "employer": "Meridian Consulting Group",
           "industry": "Consulting - General Management",
           "function": "Consulting - Strategy",
-          "cohort": "BLUE",
-          "graduationYear": 2027
+          "cohort": "Gold"
         },
         {
-          "firstName": "Ryan",
-          "lastName": "Carver",
-          "employer": "Guggenheim Securities",
+          "firstName": "Pickles",
+          "lastName": "Acquisworth",
+          "employer": "Cascade Capital Markets",
           "industry": "Financial Services - Investment Banking/Brokerage",
           "function": "Finance - Investment Banking",
-          "cohort": "GREEN",
-          "graduationYear": 2027
+          "cohort": "Red"
         },
         {
-          "firstName": "Raymond",
-          "lastName": "Chang",
-          "employer": "Citi",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "RED",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Wei Xiang",
-          "lastName": "Chen",
-          "employer": "RBC Capital Markets",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "SILVER",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Yeju",
-          "lastName": "Cho",
-          "employer": "Bank of America",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Michael",
-          "lastName": "Cruickshank",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Emily",
-          "lastName": "D'Arco",
-          "employer": "Deloitte Consulting",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Yinghan",
-          "lastName": "Du",
-          "employer": "UBS AG",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Sell Side Analyst/Research",
-          "cohort": "BLUE",
-          "graduationYear": 2028
-        },
-        {
-          "firstName": "Will",
-          "lastName": "Fulbrook Hanna",
-          "employer": "Greenhill & Co., Inc",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "SILVER",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Nick",
-          "lastName": "Giamalis",
-          "employer": "IBM - International Business Machines Corporation",
-          "industry": "Technology - Hardware",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Ethan",
-          "lastName": "Hunter",
-          "employer": "Citi",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Shubhi",
-          "lastName": "Jindal",
-          "employer": "Kearney",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Maurya",
-          "lastName": "Kakumanu",
-          "employer": "The Goldman Sachs Group, Inc.",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Eric",
-          "lastName": "Kim",
-          "employer": "Bank of America",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Simon",
-          "lastName": "Kleffner",
-          "employer": "Deloitte Consulting",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Benson",
-          "lastName": "Klingler",
-          "employer": "EY-Parthenon",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Laila",
-          "lastName": "Lapins",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting",
-          "function": "Consulting - Strategy",
-          "cohort": "SILVER",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "David",
-          "lastName": "Madero",
-          "employer": "Simon-Kucher & Partners",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Wasi",
-          "lastName": "Mahi",
-          "employer": "Accenture",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Arisa",
-          "lastName": "Marshall",
-          "employer": "Manatt Health",
-          "industry": "Consulting - Healthcare",
-          "function": "Consulting - Strategy",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Luke",
-          "lastName": "McPhillips",
-          "employer": "American Express ( AMEX )",
-          "industry": "Financial Services - Diversified Financial Services",
-          "function": "Human Resources - Generalist",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Becky",
-          "lastName": "Milner",
-          "employer": "Oliver Wyman",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Vishal",
-          "lastName": "Mohnot",
-          "employer": "Santander",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Orkhan",
-          "lastName": "Mustafayev",
-          "employer": "Jefferies Group, Inc.",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Santiago",
-          "lastName": "Navarro Roby",
-          "employer": "Activate",
-          "industry": "Technology - Other",
-          "function": "Consulting - Operational",
-          "cohort": "SILVER",
-          "graduationYear": 2028
-        },
-        {
-          "firstName": "Nataliia",
-          "lastName": "Nevinchana",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Other",
-          "cohort": "GOLD",
-          "graduationYear": 2028
-        },
-        {
-          "firstName": "Isha",
-          "lastName": "Palakurthy",
-          "employer": "American Express ( AMEX )",
-          "industry": "Financial Services - Diversified Financial Services",
-          "function": "Finance - Corporate Finance and Internal M&A",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "John",
-          "lastName": "Park",
-          "employer": "JPMorgan Chase & Co.",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "RED",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "John",
-          "lastName": "Parker",
-          "employer": "AlixPartners",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Elad",
-          "lastName": "Peleg",
-          "employer": "Jefferies Group, Inc.",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "RED",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Ayurvi",
-          "lastName": "Pensalwar",
-          "employer": "TikTok",
+          "firstName": "Tripp",
+          "lastName": "Autumnleaf",
+          "employer": "Datastruct Corp",
           "industry": "Technology - Software/Internet",
-          "function": "Marketing - Brand Management",
-          "cohort": "RED",
-          "graduationYear": 2027
+          "function": "Strategic Planning",
+          "cohort": "Blue"
         },
         {
-          "firstName": "An",
-          "lastName": "Pham",
-          "employer": "Barclays PLC",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "GREEN",
-          "graduationYear": 2027
+          "firstName": "Sprout",
+          "lastName": "Autumnleaf",
+          "employer": "Helix Health Systems",
+          "industry": "Healthcare - Providers/Services",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
         },
         {
-          "firstName": "Mariana",
-          "lastName": "Rivas",
-          "employer": "Morgan Stanley",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Impact Investing",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Jonathan",
-          "lastName": "Roy",
-          "employer": "Bank of America",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Matthew",
-          "lastName": "Rube",
-          "employer": "Barclays PLC",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "SILVER",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Giuseppe",
-          "lastName": "Scotto d'Apollonia",
-          "employer": "JPMorgan Chase & Co.",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "SILVER",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Luke",
-          "lastName": "Sekowski",
-          "employer": "Morgan Stanley",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Tom",
-          "lastName": "Shean",
-          "employer": "Barclays PLC",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "SILVER",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Grant",
-          "lastName": "Shen",
-          "employer": "Lyft Inc.",
-          "industry": "Transportation Services/Logistics",
-          "function": "Marketing - Product Development",
-          "cohort": "RED",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Erich",
-          "lastName": "Strunk",
-          "employer": "AlixPartners",
+          "firstName": "Missy",
+          "lastName": "Autumnleaf",
+          "employer": "Meridian Consulting Group",
           "industry": "Consulting - General Management",
           "function": "Consulting - Strategy",
-          "cohort": "GREEN",
-          "graduationYear": 2027
+          "cohort": "Red"
         },
         {
-          "firstName": "Sanjanaa",
-          "lastName": "Subramanian",
-          "employer": "The Goldman Sachs Group, Inc.",
+          "firstName": "Chip",
+          "lastName": "Bankmore",
+          "employer": "Orion Private Equity",
+          "industry": "Financial Services - Private Equity",
+          "function": "Finance - Private Equity",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Lulu",
+          "lastName": "Bankmore",
+          "employer": "Ironwood Consulting",
+          "industry": "Consulting - PE/VC/Risk/Turnaround and Small Businesses/Start-ups",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Hawk",
+          "lastName": "Bankmore",
+          "employer": "Civic Bridge Foundation",
+          "industry": "Consulting - For non-profit",
+          "function": "Consulting - Other",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Clyde",
+          "lastName": "Bankmore",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Trixie",
+          "lastName": "Benchmarks",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Spud",
+          "lastName": "Bespoke",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Fifi",
+          "lastName": "Bespoke",
+          "employer": "Ironwood Consulting",
+          "industry": "Consulting - PE/VC/Risk/Turnaround and Small Businesses/Start-ups",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Crash",
+          "lastName": "Blazerworth",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Poppy",
+          "lastName": "Bottomline",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Bronco",
+          "lastName": "Bowtie",
+          "employer": "Cascade Capital Markets",
           "industry": "Financial Services - Investment Banking/Brokerage",
           "function": "Finance - Investment Banking",
-          "cohort": "BLUE",
-          "graduationYear": 2027
+          "cohort": "Red"
         },
         {
-          "firstName": "Adam",
-          "lastName": "Vieira",
-          "employer": "Impact America Fund",
-          "industry": "Financial Services - Impact Investing",
-          "function": "Finance - Impact Investing",
-          "cohort": "GREEN",
-          "graduationYear": 2027
+          "firstName": "Snuffy",
+          "lastName": "Bowtie",
+          "employer": "Vantage Advisory",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
         },
         {
-          "firstName": "Poom",
-          "lastName": "Wongwaisayawan",
-          "employer": "Morgan Stanley",
+          "firstName": "Fluffy",
+          "lastName": "Cashflow",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Squishy",
+          "lastName": "Cashflow",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Gunner",
+          "lastName": "Cashman",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Flash",
+          "lastName": "Chatsworth",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Clint",
+          "lastName": "Consultsworth",
+          "employer": "Orion Private Equity",
+          "industry": "Financial Services - Private Equity",
+          "function": "Finance - Private Equity",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Bubbly",
+          "lastName": "Cufflinks",
+          "employer": "Ridgeway Securities",
           "industry": "Financial Services - Investment Banking/Brokerage",
           "function": "Finance - Investment Banking",
-          "cohort": "BLUE",
-          "graduationYear": 2027
+          "cohort": "Red"
         },
         {
-          "firstName": "Tiffany",
-          "lastName": "Yao",
-          "employer": "Penguin Random House",
-          "industry": "Media & Entertainment - Printing/Publishing",
-          "function": "Finance - Corporate Finance and Internal M&A",
-          "cohort": "BLUE",
-          "graduationYear": 2027
+          "firstName": "Pumpkin",
+          "lastName": "Dealsworth",
+          "employer": "Helix Health Systems",
+          "industry": "Healthcare - Providers/Services",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Pickles",
+          "lastName": "Dealsworth",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Taffy",
+          "lastName": "Deliverable",
+          "employer": "Orion Private Equity",
+          "industry": "Financial Services - Private Equity",
+          "function": "Finance - Private Equity",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Blossom",
+          "lastName": "Dividende",
+          "employer": "Datastruct Corp",
+          "industry": "Technology - Software/Internet",
+          "function": "Strategic Planning",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Fudge",
+          "lastName": "Goldsworth",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Drake",
+          "lastName": "Golfclub",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Chesty",
+          "lastName": "Goodhair",
+          "employer": "Ironwood Consulting",
+          "industry": "Consulting - PE/VC/Risk/Turnaround and Small Businesses/Start-ups",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Fifi",
+          "lastName": "Holidaysworth",
+          "employer": "Thornfield Bank",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Biff",
+          "lastName": "Ideation",
+          "employer": "Cascade Capital Markets",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Hank",
+          "lastName": "Ideation",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Wobbly",
+          "lastName": "Ideation",
+          "employer": "Ridgeway Securities",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Gunnar",
+          "lastName": "Ideation",
+          "employer": "Cascade Capital Markets",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Gage",
+          "lastName": "Keg-Stand",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Twizzle",
+          "lastName": "Khakipants",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Ginger",
+          "lastName": "Leverington",
+          "employer": "Thornfield Bank",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Bronco",
+          "lastName": "Leverington",
+          "employer": "Ridgeway Securities",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Buzz",
+          "lastName": "Loafers",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Freckles",
+          "lastName": "Moneybags",
+          "employer": "Helix Health Systems",
+          "industry": "Healthcare - Providers/Services",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Drake",
+          "lastName": "Moneybags",
+          "employer": "Ridgeway Securities",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Crash",
+          "lastName": "Moneybags",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Rip",
+          "lastName": "Moneysworth",
+          "employer": "Helix Health Systems",
+          "industry": "Healthcare - Providers/Services",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Bing",
+          "lastName": "Moneysworth",
+          "employer": "Thornfield Bank",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Snuggles",
+          "lastName": "Moneysworth",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Hawk",
+          "lastName": "Networking",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Boomer",
+          "lastName": "Offshore",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Fifi",
+          "lastName": "Oxfordton",
+          "employer": "Thornfield Bank",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Pudding",
+          "lastName": "Pedigree",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Gunnar",
+          "lastName": "Pitchworth",
+          "employer": "Datastruct Corp",
+          "industry": "Technology - Software/Internet",
+          "function": "Strategic Planning",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Wobbly",
+          "lastName": "Pitchworth",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Twizzle",
+          "lastName": "Quarterly",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Missy",
+          "lastName": "Quarterly",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Bubbly",
+          "lastName": "Quarterly",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Fudge",
+          "lastName": "Quarterly",
+          "employer": "Vantage Advisory",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Sprinkles",
+          "lastName": "Retreatington",
+          "employer": "Verdant Energy Partners",
+          "industry": "Environment - Sustainability",
+          "function": "Business Development",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Cuddlebug",
+          "lastName": "Richfield",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Bambi",
+          "lastName": "Runway",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Gage",
+          "lastName": "Signetring",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Mitzi",
+          "lastName": "Silverspoon",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Noodles",
+          "lastName": "Silverstein",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Fifi",
+          "lastName": "Ski-Chalet",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Chunk",
+          "lastName": "Springbreak",
+          "employer": "Helix Health Systems",
+          "industry": "Healthcare - Providers/Services",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Blade",
+          "lastName": "Springbreak",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Chip",
+          "lastName": "Squash-Club",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Bubbly",
+          "lastName": "Squash-Club",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Jellybean",
+          "lastName": "Summerhome",
+          "employer": "Orion Private Equity",
+          "industry": "Financial Services - Private Equity",
+          "function": "Finance - Private Equity",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Candy",
+          "lastName": "Termsheet",
+          "employer": "Ridgeway Securities",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Jock",
+          "lastName": "Termsheet",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Bitsy",
+          "lastName": "Termsheet",
+          "employer": "Verdant Energy Partners",
+          "industry": "Environment - Sustainability",
+          "function": "Business Development",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Chunk",
+          "lastName": "Uppercrust",
+          "employer": "Vantage Advisory",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Skip",
+          "lastName": "Vacationmore",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Ginger",
+          "lastName": "Vacationmore",
+          "employer": "Ridgeway Securities",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Trixie",
+          "lastName": "Velvetglove",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Muffin",
+          "lastName": "Velvetglove",
+          "employer": "Vantage Advisory",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Candy",
+          "lastName": "Von-Bonus",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Muffin",
+          "lastName": "Von-Powerpoint",
+          "employer": "Helix Health Systems",
+          "industry": "Healthcare - Providers/Services",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Bubbly",
+          "lastName": "Von-Powerpoint",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Knuckles",
+          "lastName": "Von-Powerpoint",
+          "employer": "Civic Bridge Foundation",
+          "industry": "Consulting - For non-profit",
+          "function": "Consulting - Other",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Crash",
+          "lastName": "Wealthington",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Clyde",
+          "lastName": "Wealthington",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Tank",
+          "lastName": "Wealthington",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Tripp",
+          "lastName": "Yacht-Club",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Jellybean",
+          "lastName": "Yacht-Club",
+          "employer": "Vantage Advisory",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
         }
       ]
     },
@@ -481,226 +720,356 @@
       "displayName": "Boston, MA",
       "lat": 42.3588336,
       "lng": -71.0578303,
-      "count": 12,
+      "count": 42,
       "topEmployers": [
-        "BCG - The Boston Consulting Group, Inc.",
-        "Bain & Company, Inc.",
-        "EY-Parthenon",
-        "Deloitte Consulting",
-        "GMO - Grantham, Mayo, Van Otterloo & Co. LLC"
+        "Apex Strategy Partners",
+        "Arclight Capital",
+        "Halcyon Asset Management",
+        "Biovance Therapeutics"
       ],
       "cohortBreakdown": {
-        "RED": 2,
-        "SILVER": 3,
-        "GOLD": 3,
-        "GREEN": 1,
-        "BLUE": 3
+        "Silver": 14,
+        "Blue": 8,
+        "Green": 6,
+        "Gold": 9,
+        "Red": 5
       },
       "people": [
         {
-          "firstName": "Shashwat",
-          "lastName": "Bhattacharjee",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
+          "firstName": "Spud",
+          "lastName": "Acquisworth",
+          "employer": "Apex Strategy Partners",
           "industry": "Consulting - General Management",
           "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
+          "cohort": "Silver"
         },
         {
-          "firstName": "Lavender",
-          "lastName": "Mao",
-          "employer": "Bain & Company, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Information Technology",
-          "cohort": "SILVER",
-          "graduationYear": 2027
+          "firstName": "Lulu",
+          "lastName": "Autumnleaf",
+          "employer": "Arclight Capital",
+          "industry": "Financial Services - Impact Investing",
+          "function": "Finance - Impact Investing",
+          "cohort": "Blue"
         },
         {
-          "firstName": "Benjamin",
-          "lastName": "Martin",
-          "employer": "EY-Parthenon",
+          "firstName": "Bing",
+          "lastName": "Bandwidth",
+          "employer": "Apex Strategy Partners",
           "industry": "Consulting - General Management",
           "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
+          "cohort": "Green"
         },
         {
-          "firstName": "Ryan",
-          "lastName": "Massoud",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
+          "firstName": "Blaine",
+          "lastName": "Bankmore",
+          "employer": "Apex Strategy Partners",
           "industry": "Consulting - General Management",
           "function": "Consulting - Strategy",
-          "cohort": "SILVER",
-          "graduationYear": 2027
+          "cohort": "Gold"
         },
         {
-          "firstName": "Alex",
-          "lastName": "Papadakis",
-          "employer": "Deloitte Consulting",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
+          "firstName": "Gunner",
+          "lastName": "Bankmore",
+          "employer": "Biovance Therapeutics",
+          "industry": "Healthcare - Biotech & Life Sciences",
+          "function": "Business Development",
+          "cohort": "Silver"
         },
         {
-          "firstName": "Jackson",
-          "lastName": "Pine",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Aman",
-          "lastName": "Rai",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Disha",
-          "lastName": "Sankhe",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Keshav",
-          "lastName": "Sharma",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "SILVER",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Katherine",
-          "lastName": "Shine",
-          "employer": "Bain & Company, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Other",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Manasa",
-          "lastName": "Sunkavalli",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Jenny",
-          "lastName": "Wang",
-          "employer": "GMO - Grantham, Mayo, Van Otterloo & Co. LLC",
+          "firstName": "Cuddlebug",
+          "lastName": "Blazingstock",
+          "employer": "Halcyon Asset Management",
           "industry": "Financial Services - Investment Management",
-          "function": "Finance - Buy Side Analyst/Research",
-          "cohort": "GOLD",
-          "graduationYear": 2028
-        }
-      ]
-    },
-    {
-      "id": "san-francisco-ca-united-states",
-      "city": "San Francisco",
-      "stateOrProvince": "CA",
-      "country": "United States",
-      "displayName": "San Francisco, CA",
-      "lat": 37.7879363,
-      "lng": -122.4075201,
-      "count": 8,
-      "topEmployers": [
-        "Barclays PLC",
-        "Adobe Systems Incorporated",
-        "Screendoor",
-        "JPMorgan Chase & Co.",
-        "McKinsey & Company"
-      ],
-      "cohortBreakdown": {
-        "GOLD": 2,
-        "GREEN": 1,
-        "BLUE": 4,
-        "SILVER": 1
-      },
-      "people": [
-        {
-          "firstName": "Parth",
-          "lastName": "Chhaparwal",
-          "employer": "Barclays PLC",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "GOLD",
-          "graduationYear": 2027
+          "function": "Finance - Investment Manager",
+          "cohort": "Silver"
         },
         {
-          "firstName": "Marcone",
-          "lastName": "Correia",
-          "employer": "Adobe Systems Incorporated",
-          "industry": "Technology - Software/Internet",
-          "function": "Marketing - Product Development",
-          "cohort": "GREEN",
-          "graduationYear": 2027
+          "firstName": "Ace",
+          "lastName": "Bonuscheck",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
         },
         {
-          "firstName": "Sami",
-          "lastName": "Kosaraju",
-          "employer": "Screendoor",
-          "industry": "Financial Services - Venture Capital",
-          "function": "Finance - Venture Capital",
-          "cohort": "BLUE",
-          "graduationYear": 2027
+          "firstName": "Muffin",
+          "lastName": "Bonuscheck",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
         },
         {
-          "firstName": "Adithya",
-          "lastName": "Kumaresan Shanmugasundaram",
-          "employer": "JPMorgan Chase & Co.",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "SILVER",
-          "graduationYear": 2027
+          "firstName": "Twizzle",
+          "lastName": "Bottomline",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
         },
         {
-          "firstName": "Pranay",
-          "lastName": "Loya",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting",
-          "function": "Consulting - Other",
-          "cohort": "BLUE",
-          "graduationYear": 2027
+          "firstName": "Hank",
+          "lastName": "Closington",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
         },
         {
-          "firstName": "Gina",
-          "lastName": "Moon",
-          "employer": "Citi",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "GOLD",
-          "graduationYear": 2027
+          "firstName": "Cuddlebug",
+          "lastName": "Cufflinks",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
         },
         {
-          "firstName": "Griffin",
-          "lastName": "Schultz",
-          "employer": "Apex Service Partners",
-          "industry": "Other",
-          "function": "Operations - Management",
-          "cohort": "BLUE",
-          "graduationYear": 2027
+          "firstName": "Giggles",
+          "lastName": "Decksworth",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
         },
         {
-          "firstName": "Guo",
-          "lastName": "Yu",
-          "employer": "Cisco Systems, Inc.",
-          "industry": "Technology - Software/Internet",
-          "function": "Product Management",
-          "cohort": "BLUE",
-          "graduationYear": 2027
+          "firstName": "Dirk",
+          "lastName": "Deliverable",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Dottie",
+          "lastName": "Disruption",
+          "employer": "Halcyon Asset Management",
+          "industry": "Financial Services - Investment Management",
+          "function": "Finance - Investment Manager",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Flash",
+          "lastName": "Flashdeck",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Blaze",
+          "lastName": "Holidaysworth",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Jellybean",
+          "lastName": "Keg-Stand",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Giggles",
+          "lastName": "Moneybags",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Ginger",
+          "lastName": "Offshore",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Prissy",
+          "lastName": "Offshore",
+          "employer": "Arclight Capital",
+          "industry": "Financial Services - Impact Investing",
+          "function": "Finance - Impact Investing",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Duke",
+          "lastName": "Oxfordton",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Noodles",
+          "lastName": "Pedigree",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Bunny",
+          "lastName": "Pedigree",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Ginger",
+          "lastName": "Pitchworth",
+          "employer": "Arclight Capital",
+          "industry": "Financial Services - Impact Investing",
+          "function": "Finance - Impact Investing",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Twizzle",
+          "lastName": "Pivot-Hard",
+          "employer": "Halcyon Asset Management",
+          "industry": "Financial Services - Investment Management",
+          "function": "Finance - Investment Manager",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Rex",
+          "lastName": "Profit-Share",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Whip",
+          "lastName": "Profit-Share",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Ranger",
+          "lastName": "Regatta",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Ace",
+          "lastName": "Rolex-Tan",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Blaze",
+          "lastName": "Runway",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Pixie",
+          "lastName": "Signetring",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Bucky",
+          "lastName": "Signetring",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Gunnar",
+          "lastName": "Ski-Chalet",
+          "employer": "Biovance Therapeutics",
+          "industry": "Healthcare - Biotech & Life Sciences",
+          "function": "Business Development",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Cuddlebug",
+          "lastName": "Ski-Chalet",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Chesty",
+          "lastName": "Springbreak",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Muffin",
+          "lastName": "Springbreak",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Buffy",
+          "lastName": "Strategems",
+          "employer": "Arclight Capital",
+          "industry": "Financial Services - Impact Investing",
+          "function": "Finance - Impact Investing",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Snuffy",
+          "lastName": "Synergize",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Dirk",
+          "lastName": "Trustfund",
+          "employer": "Biovance Therapeutics",
+          "industry": "Healthcare - Biotech & Life Sciences",
+          "function": "Business Development",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Jellybean",
+          "lastName": "Von-Powerpoint",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Cupcake",
+          "lastName": "Wine-Cellar",
+          "employer": "Halcyon Asset Management",
+          "industry": "Financial Services - Investment Management",
+          "function": "Finance - Investment Manager",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Fifi",
+          "lastName": "Yacht-Club",
+          "employer": "Apex Strategy Partners",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
         }
       ]
     },
@@ -712,83 +1081,248 @@
       "displayName": "Chicago, IL",
       "lat": 41.8755616,
       "lng": -87.6244212,
-      "count": 7,
+      "count": 15,
       "topEmployers": [
-        "Roland Berger Strategy Consultants GmbH",
-        "Bain & Company, Inc.",
-        "Kearney",
-        "Analysis Group, Inc.",
-        "Chartis"
+        "Crestline & Associates"
       ],
       "cohortBreakdown": {
-        "SILVER": 1,
-        "GOLD": 1,
-        "RED": 4,
-        "GREEN": 1
+        "Red": 3,
+        "Blue": 4,
+        "Silver": 3,
+        "Green": 2,
+        "Gold": 3
       },
       "people": [
         {
-          "firstName": "Samuel",
-          "lastName": "Boroh",
-          "employer": "Roland Berger Strategy Consultants GmbH",
+          "firstName": "Chunk",
+          "lastName": "Blazerton",
+          "employer": "Crestline & Associates",
           "industry": "Consulting - General Management",
           "function": "Consulting - Strategy",
-          "cohort": "SILVER",
-          "graduationYear": 2027
+          "cohort": "Red"
         },
         {
-          "firstName": "Maiya",
-          "lastName": "Cook",
-          "employer": "Bain & Company, Inc.",
+          "firstName": "Tulsa",
+          "lastName": "Blue-Chip",
+          "employer": "Crestline & Associates",
           "industry": "Consulting - General Management",
           "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
+          "cohort": "Blue"
         },
         {
-          "firstName": "Camila",
-          "lastName": "Ortiz Silva",
-          "employer": "Kearney",
+          "firstName": "Clint",
+          "lastName": "Closington",
+          "employer": "Crestline & Associates",
           "industry": "Consulting - General Management",
           "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
+          "cohort": "Silver"
         },
         {
-          "firstName": "Bryce",
-          "lastName": "Pointer",
-          "employer": "Analysis Group, Inc.",
-          "industry": "Consulting - Economics",
-          "function": "Consulting - Economic",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Emma",
-          "lastName": "Pred-Sosa",
-          "employer": "Chartis",
-          "industry": "Consulting - Healthcare",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Jason",
-          "lastName": "Rondinelli",
-          "employer": "Huron Consulting Group",
+          "firstName": "Spud",
+          "lastName": "Consultsworth",
+          "employer": "Crestline & Associates",
           "industry": "Consulting - General Management",
-          "function": "Education/Faculty/Teacher",
-          "cohort": "RED",
-          "graduationYear": 2027
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
         },
         {
-          "firstName": "Richard",
-          "lastName": "Ulbricht",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting",
+          "firstName": "Fifi",
+          "lastName": "Cufflinks",
+          "employer": "Crestline & Associates",
+          "industry": "Consulting - General Management",
           "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Blaine",
+          "lastName": "Dealsworth",
+          "employer": "Crestline & Associates",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Hawk",
+          "lastName": "Dealsworth",
+          "employer": "Crestline & Associates",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Scooter",
+          "lastName": "Disruption",
+          "employer": "Crestline & Associates",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Blossom",
+          "lastName": "Flashdeck",
+          "employer": "Crestline & Associates",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Duke",
+          "lastName": "Golfclub",
+          "employer": "Crestline & Associates",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Tripp",
+          "lastName": "Moneybags",
+          "employer": "Crestline & Associates",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Ace",
+          "lastName": "Pedigree",
+          "employer": "Crestline & Associates",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Noodles",
+          "lastName": "Quarterly",
+          "employer": "Crestline & Associates",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Rip",
+          "lastName": "Regatta",
+          "employer": "Crestline & Associates",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Blaine",
+          "lastName": "Squash-Club",
+          "employer": "Crestline & Associates",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        }
+      ]
+    },
+    {
+      "id": "london-united-kingdom",
+      "city": "London",
+      "stateOrProvince": "",
+      "country": "United Kingdom",
+      "displayName": "London, United Kingdom",
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "count": 11,
+      "topEmployers": [
+        "Cascade Capital Markets",
+        "Meridian Consulting Group"
+      ],
+      "cohortBreakdown": {
+        "Red": 2,
+        "Blue": 3,
+        "Silver": 1,
+        "Green": 2,
+        "Gold": 3
+      },
+      "people": [
+        {
+          "firstName": "Daffodil",
+          "lastName": "Consultsworth",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Vince",
+          "lastName": "Dealsworth",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Poppy",
+          "lastName": "Dealsworth",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Gage",
+          "lastName": "Dividende",
+          "employer": "Cascade Capital Markets",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Pumpkin",
+          "lastName": "Goodhair",
+          "employer": "Meridian Consulting Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Freckles",
+          "lastName": "Lendington",
+          "employer": "Cascade Capital Markets",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Jellybean",
+          "lastName": "Leveridge",
+          "employer": "Cascade Capital Markets",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Fifi",
+          "lastName": "Mergerfield",
+          "employer": "Cascade Capital Markets",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Daffodil",
+          "lastName": "Runway",
+          "employer": "Cascade Capital Markets",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Pumpkin",
+          "lastName": "Termsheet",
+          "employer": "Cascade Capital Markets",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Pickles",
+          "lastName": "Vacationmore",
+          "employer": "Cascade Capital Markets",
+          "industry": "Financial Services - Investment Banking/Brokerage",
+          "function": "Finance - Investment Banking",
+          "cohort": "Gold"
         }
       ]
     },
@@ -802,156 +1336,194 @@
       "lng": -77.0365427,
       "count": 7,
       "topEmployers": [
-        "McKinsey & Company",
-        "National Park Service",
-        "Alvarez & Marsal",
-        "U.S. Department of Energy",
-        "BCG - The Boston Consulting Group, Inc."
+        "Northgate Advisory",
+        "U.S. Department of Commerce"
       ],
       "cohortBreakdown": {
-        "BLUE": 2,
-        "RED": 3,
-        "GOLD": 1,
-        "GREEN": 1
+        "Red": 1,
+        "Green": 1,
+        "Silver": 1,
+        "Blue": 3,
+        "Gold": 1
       },
       "people": [
         {
-          "firstName": "Cristina",
-          "lastName": "de la Puerta",
-          "employer": "National Park Service",
+          "firstName": "Buffy",
+          "lastName": "Blue-Chip",
+          "employer": "U.S. Department of Commerce",
           "industry": "Government - Federal",
-          "function": "Consulting - Operational",
-          "cohort": "BLUE",
-          "graduationYear": 2027
+          "function": "Management - Project Management",
+          "cohort": "Red"
         },
         {
-          "firstName": "Eytan",
-          "lastName": "Deener-Agus",
-          "employer": "Alvarez & Marsal",
-          "industry": "Consulting - PE/VC/Risk/Turnaround and Small Businesses/Start-ups",
-          "function": "Consulting - Operational",
-          "cohort": "RED",
-          "graduationYear": 2027
+          "firstName": "Knuckles",
+          "lastName": "Leverington",
+          "employer": "Northgate Advisory",
+          "industry": "Consulting - Technology",
+          "function": "Consulting - Information Technology",
+          "cohort": "Green"
         },
         {
-          "firstName": "Colby",
-          "lastName": "Ko",
-          "employer": "U.S. Department of Energy",
+          "firstName": "Hawk",
+          "lastName": "Pivot-Hard",
+          "employer": "Northgate Advisory",
+          "industry": "Consulting - Technology",
+          "function": "Consulting - Information Technology",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Gunnar",
+          "lastName": "Silverspoon",
+          "employer": "U.S. Department of Commerce",
           "industry": "Government - Federal",
-          "function": "Marketing - Research",
-          "cohort": "RED",
-          "graduationYear": 2027
+          "function": "Management - Project Management",
+          "cohort": "Blue"
         },
         {
-          "firstName": "Patrycja",
-          "lastName": "Pajdak",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
+          "firstName": "Buffy",
+          "lastName": "Synergize",
+          "employer": "Northgate Advisory",
+          "industry": "Consulting - Technology",
+          "function": "Consulting - Information Technology",
+          "cohort": "Blue"
         },
         {
-          "firstName": "Saif",
-          "lastName": "Pilpile",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "BLUE",
-          "graduationYear": 2027
+          "firstName": "Drake",
+          "lastName": "Termsheet",
+          "employer": "U.S. Department of Commerce",
+          "industry": "Government - Federal",
+          "function": "Management - Project Management",
+          "cohort": "Gold"
         },
         {
-          "firstName": "Lisa",
-          "lastName": "Sheridan",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Tiera",
-          "lastName": "Williams",
-          "employer": "Huron Consulting Group",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GREEN",
-          "graduationYear": 2027
+          "firstName": "Bunny",
+          "lastName": "Yacht-Club",
+          "employer": "Northgate Advisory",
+          "industry": "Consulting - Technology",
+          "function": "Consulting - Information Technology",
+          "cohort": "Blue"
         }
       ]
     },
     {
-      "id": "darien-ct-united-states",
-      "city": "Darien",
-      "stateOrProvince": "CT",
+      "id": "denver-co-united-states",
+      "city": "Denver",
+      "stateOrProvince": "CO",
       "country": "United States",
-      "displayName": "Darien, CT",
-      "lat": 41.0787079,
-      "lng": -73.4692873,
-      "count": 6,
+      "displayName": "Denver, CO",
+      "lat": 39.7392364,
+      "lng": -104.984862,
+      "count": 5,
       "topEmployers": [
-        "McKinsey & Company"
+        "SolarEdge Dynamics"
       ],
       "cohortBreakdown": {
-        "GOLD": 1,
-        "RED": 2,
-        "BLUE": 1,
-        "SILVER": 2
+        "Red": 1,
+        "Silver": 1,
+        "Blue": 2,
+        "Green": 1
       },
       "people": [
         {
-          "firstName": "Dan",
-          "lastName": "Baglini",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
+          "firstName": "Pudding",
+          "lastName": "Autumnleaf",
+          "employer": "SolarEdge Dynamics",
+          "industry": "Energy - Renewable",
+          "function": "Strategic Planning",
+          "cohort": "Red"
         },
         {
-          "firstName": "Holly",
-          "lastName": "Briffa",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
+          "firstName": "Chesty",
+          "lastName": "Bespoke",
+          "employer": "SolarEdge Dynamics",
+          "industry": "Energy - Renewable",
+          "function": "Strategic Planning",
+          "cohort": "Silver"
         },
         {
-          "firstName": "Jake",
-          "lastName": "Chang",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting",
-          "function": "Consulting - Strategy",
-          "cohort": "BLUE",
-          "graduationYear": 2027
+          "firstName": "Brick",
+          "lastName": "Chatsworth",
+          "employer": "SolarEdge Dynamics",
+          "industry": "Energy - Renewable",
+          "function": "Strategic Planning",
+          "cohort": "Blue"
         },
         {
-          "firstName": "Pun",
-          "lastName": "Khumchaisakul",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
+          "firstName": "Dottie",
+          "lastName": "Goldsworth",
+          "employer": "SolarEdge Dynamics",
+          "industry": "Energy - Renewable",
+          "function": "Strategic Planning",
+          "cohort": "Blue"
         },
         {
-          "firstName": "Zach",
-          "lastName": "Mulligan",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "SILVER",
-          "graduationYear": 2027
+          "firstName": "Tripp",
+          "lastName": "Profit-Share",
+          "employer": "SolarEdge Dynamics",
+          "industry": "Energy - Renewable",
+          "function": "Strategic Planning",
+          "cohort": "Green"
+        }
+      ]
+    },
+    {
+      "id": "san-francisco-ca-united-states",
+      "city": "San Francisco",
+      "stateOrProvince": "CA",
+      "country": "United States",
+      "displayName": "San Francisco, CA",
+      "lat": 37.7879363,
+      "lng": -122.4075201,
+      "count": 5,
+      "topEmployers": [
+        "Nexlify Inc.",
+        "Stellarwind Ventures"
+      ],
+      "cohortBreakdown": {
+        "Red": 2,
+        "Blue": 1,
+        "Gold": 2
+      },
+      "people": [
+        {
+          "firstName": "Snuggles",
+          "lastName": "Benchmarks",
+          "employer": "Stellarwind Ventures",
+          "industry": "Financial Services - Venture Capital",
+          "function": "Finance - Venture Capital",
+          "cohort": "Red"
         },
         {
-          "firstName": "Connor",
-          "lastName": "Schmitt",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "SILVER",
-          "graduationYear": 2027
+          "firstName": "Fluffy",
+          "lastName": "Polo-Match",
+          "employer": "Nexlify Inc.",
+          "industry": "Technology - Software/Internet",
+          "function": "Product Management",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Bunny",
+          "lastName": "Profit-Share",
+          "employer": "Nexlify Inc.",
+          "industry": "Technology - Software/Internet",
+          "function": "Product Management",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Gunner",
+          "lastName": "Von-Powerpoint",
+          "employer": "Nexlify Inc.",
+          "industry": "Technology - Software/Internet",
+          "function": "Product Management",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Bucky",
+          "lastName": "Wealthington",
+          "employer": "Stellarwind Ventures",
+          "industry": "Financial Services - Venture Capital",
+          "function": "Finance - Venture Capital",
+          "cohort": "Gold"
         }
       ]
     },
@@ -963,110 +1535,107 @@
       "displayName": "Los Angeles, CA",
       "lat": 34.0536909,
       "lng": -118.242766,
-      "count": 4,
+      "count": 5,
       "topEmployers": [
-        "Bain & Company, Inc.",
-        "Apollo Global Management",
-        "Halogen Ventures",
-        "BCG - The Boston Consulting Group, Inc."
+        "Harbinger Consulting"
       ],
       "cohortBreakdown": {
-        "GOLD": 1,
-        "RED": 1,
-        "GREEN": 2
+        "Silver": 2,
+        "Gold": 1,
+        "Green": 2
       },
       "people": [
         {
-          "firstName": "Megan",
-          "lastName": "Ballew",
-          "employer": "Bain & Company, Inc.",
+          "firstName": "Boomer",
+          "lastName": "Holidaysworth",
+          "employer": "Harbinger Consulting",
           "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
+          "function": "Consulting - Operational",
+          "cohort": "Silver"
         },
         {
-          "firstName": "Sanket",
-          "lastName": "Desai",
-          "employer": "Apollo Global Management",
-          "industry": "Financial Services - Investment Management",
-          "function": "Finance - Buy Side Analyst/Research",
-          "cohort": "RED",
-          "graduationYear": 2028
-        },
-        {
-          "firstName": "Rachel A.",
-          "lastName": "Lee",
-          "employer": "Halogen Ventures",
-          "industry": "Financial Services - Venture Capital",
-          "function": "Finance - Venture Capital",
-          "cohort": "GREEN",
-          "graduationYear": 2028
-        },
-        {
-          "firstName": "Prabhjit",
-          "lastName": "Singh",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
+          "firstName": "Lulu",
+          "lastName": "Moneybags",
+          "employer": "Harbinger Consulting",
           "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GREEN",
-          "graduationYear": 2027
+          "function": "Consulting - Operational",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Gage",
+          "lastName": "Pivot-Hard",
+          "employer": "Harbinger Consulting",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Operational",
+          "cohort": "Green"
+        },
+        {
+          "firstName": "Bubbly",
+          "lastName": "Portfolio",
+          "employer": "Harbinger Consulting",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Operational",
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Rip",
+          "lastName": "Silverspoon",
+          "employer": "Harbinger Consulting",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Operational",
+          "cohort": "Green"
         }
       ]
     },
     {
-      "id": "summit-nj-united-states",
-      "city": "Summit",
-      "stateOrProvince": "NJ",
+      "id": "dallas-tx-united-states",
+      "city": "Dallas",
+      "stateOrProvince": "TX",
       "country": "United States",
-      "displayName": "Summit, NJ",
-      "lat": 40.7182356,
-      "lng": -74.3592296,
+      "displayName": "Dallas, TX",
+      "lat": 32.7762719,
+      "lng": -96.7968559,
       "count": 4,
       "topEmployers": [
-        "BCG - The Boston Consulting Group, Inc."
+        "Paragon Strategy Group"
       ],
       "cohortBreakdown": {
-        "GOLD": 2,
-        "GREEN": 1,
-        "BLUE": 1
+        "Blue": 1,
+        "Silver": 2,
+        "Red": 1
       },
       "people": [
         {
-          "firstName": "Victoria",
-          "lastName": "Chen",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Arushi",
-          "lastName": "Dixit",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Other",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Michael",
-          "lastName": "Henry",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
+          "firstName": "Slab",
+          "lastName": "Autumnleaf",
+          "employer": "Paragon Strategy Group",
           "industry": "Consulting - General Management",
           "function": "Consulting - Strategy",
-          "cohort": "BLUE",
-          "graduationYear": 2027
+          "cohort": "Blue"
         },
         {
-          "firstName": "Tanvi",
-          "lastName": "Shrivastav",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
+          "firstName": "Dazzle",
+          "lastName": "Cufflinks",
+          "employer": "Paragon Strategy Group",
           "industry": "Consulting - General Management",
           "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
+          "cohort": "Silver"
+        },
+        {
+          "firstName": "Boomer",
+          "lastName": "Portfolio",
+          "employer": "Paragon Strategy Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Red"
+        },
+        {
+          "firstName": "Ginger",
+          "lastName": "Wealthington",
+          "employer": "Paragon Strategy Group",
+          "industry": "Consulting - General Management",
+          "function": "Consulting - Strategy",
+          "cohort": "Silver"
         }
       ]
     },
@@ -1080,292 +1649,95 @@
       "lng": -122.330062,
       "count": 4,
       "topEmployers": [
-        "TikTok",
-        "Bloodworks Northwest",
-        "BCG - The Boston Consulting Group, Inc.",
-        "Bain & Company, Inc."
+        "Luminos Technologies"
       ],
       "cohortBreakdown": {
-        "GREEN": 1,
-        "GOLD": 2,
-        "RED": 1
+        "Blue": 2,
+        "Gold": 2
       },
       "people": [
         {
-          "firstName": "Mo",
-          "lastName": "Liu",
-          "employer": "TikTok",
+          "firstName": "Kip",
+          "lastName": "Autumnleaf",
+          "employer": "Luminos Technologies",
           "industry": "Technology - Software/Internet",
-          "function": "Marketing - Product Development",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Grisel",
-          "lastName": "Ramirez Roldan",
-          "employer": "Bloodworks Northwest",
-          "industry": "Healthcare - Providers/Services",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Parth",
-          "lastName": "Shah",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Tamer",
-          "lastName": "Sullivan",
-          "employer": "Bain & Company, Inc.",
-          "industry": "Consulting",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "houston-tx-united-states",
-      "city": "Houston",
-      "stateOrProvince": "TX",
-      "country": "United States",
-      "displayName": "Houston, TX",
-      "lat": 29.7589382,
-      "lng": -95.3676974,
-      "count": 3,
-      "topEmployers": [
-        "BCG - The Boston Consulting Group, Inc.",
-        "Evercore",
-        "McKinsey & Company"
-      ],
-      "cohortBreakdown": {
-        "GREEN": 1,
-        "RED": 1,
-        "GOLD": 1
-      },
-      "people": [
-        {
-          "firstName": "Arlis",
-          "lastName": "Armansyah",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Anna",
-          "lastName": "Budaeva",
-          "employer": "Evercore",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "RED",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Daniel",
-          "lastName": "Seach",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "white-plains-ny-united-states",
-      "city": "White Plains",
-      "stateOrProvince": "NY",
-      "country": "United States",
-      "displayName": "White Plains, NY",
-      "lat": 41.0339862,
-      "lng": -73.7629097,
-      "count": 3,
-      "topEmployers": [
-        "Danone",
-        "Layer 7 Capital"
-      ],
-      "cohortBreakdown": {
-        "GOLD": 1,
-        "RED": 2
-      },
-      "people": [
-        {
-          "firstName": "Sara",
-          "lastName": "Bloem",
-          "employer": "Danone",
-          "industry": "Consumer Products - Food/Beverage/Tobacco",
-          "function": "Management - General Manager",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Haider",
-          "lastName": "Sultan",
-          "employer": "Layer 7 Capital",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "RED",
-          "graduationYear": 2028
-        },
-        {
-          "firstName": "Ivy",
-          "lastName": "Zhang",
-          "employer": "Danone",
-          "industry": "Consumer Products - Food/Beverage/Tobacco",
           "function": "Marketing - Brand Management",
-          "cohort": "RED",
-          "graduationYear": 2027
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Twinkle",
+          "lastName": "Holidaysworth",
+          "employer": "Luminos Technologies",
+          "industry": "Technology - Software/Internet",
+          "function": "Marketing - Brand Management",
+          "cohort": "Gold"
+        },
+        {
+          "firstName": "Ace",
+          "lastName": "Pitchworth",
+          "employer": "Luminos Technologies",
+          "industry": "Technology - Software/Internet",
+          "function": "Marketing - Brand Management",
+          "cohort": "Blue"
+        },
+        {
+          "firstName": "Chesty",
+          "lastName": "Runway",
+          "employer": "Luminos Technologies",
+          "industry": "Technology - Software/Internet",
+          "function": "Marketing - Brand Management",
+          "cohort": "Gold"
         }
       ]
     },
     {
-      "id": "dallas-tx-united-states",
-      "city": "Dallas",
+      "id": "austin-tx-united-states",
+      "city": "Austin",
       "stateOrProvince": "TX",
       "country": "United States",
-      "displayName": "Dallas, TX",
-      "lat": 32.7762719,
-      "lng": -96.7968559,
-      "count": 3,
+      "displayName": "Austin, TX",
+      "lat": 30.2711286,
+      "lng": -97.7436995,
+      "count": 4,
       "topEmployers": [
-        "BCG - The Boston Consulting Group, Inc."
+        "CloudVault Systems"
       ],
       "cohortBreakdown": {
-        "GOLD": 2,
-        "RED": 1
+        "Silver": 2,
+        "Green": 2
       },
       "people": [
         {
-          "firstName": "Tobias",
-          "lastName": "Chin",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
+          "firstName": "Chunk",
+          "lastName": "Goldsworth",
+          "employer": "CloudVault Systems",
+          "industry": "Technology - Other",
+          "function": "Business Development",
+          "cohort": "Silver"
         },
         {
-          "firstName": "Jung Tae",
-          "lastName": "Ji",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
+          "firstName": "Snuggles",
+          "lastName": "Loafers",
+          "employer": "CloudVault Systems",
+          "industry": "Technology - Other",
+          "function": "Business Development",
+          "cohort": "Silver"
         },
         {
-          "firstName": "Siddhant",
-          "lastName": "Malhotra",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "detroit-mi-united-states",
-      "city": "Detroit",
-      "stateOrProvince": "MI",
-      "country": "United States",
-      "displayName": "Detroit, MI",
-      "lat": 42.3315509,
-      "lng": -83.0466403,
-      "count": 3,
-      "topEmployers": [
-        "PwC - PriceWaterhouseCoopers",
-        "Detroit Venture Partners",
-        "DTE Energy"
-      ],
-      "cohortBreakdown": {
-        "GOLD": 1,
-        "GREEN": 1,
-        "RED": 1
-      },
-      "people": [
-        {
-          "firstName": "Jack",
-          "lastName": "Ernst",
-          "employer": "PwC - PriceWaterhouseCoopers",
-          "industry": "Financial Services - Accounting",
-          "function": "Consulting - Other",
-          "cohort": "GOLD",
-          "graduationYear": 2027
+          "firstName": "Snuggles",
+          "lastName": "Signetring",
+          "employer": "CloudVault Systems",
+          "industry": "Technology - Other",
+          "function": "Business Development",
+          "cohort": "Green"
         },
         {
-          "firstName": "Anagha",
-          "lastName": "Mulpur",
-          "employer": "Detroit Venture Partners",
-          "industry": "Financial Services - Venture Capital",
-          "function": "Finance - Venture Capital",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Frank",
-          "lastName": "Thomas",
-          "employer": "DTE Energy",
-          "industry": "Energy - Renewable",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "new-haven-ct-united-states",
-      "city": "New Haven",
-      "stateOrProvince": "CT",
-      "country": "United States",
-      "displayName": "New Haven, CT",
-      "lat": 41.3082138,
-      "lng": -72.9250518,
-      "count": 3,
-      "topEmployers": [
-        "REDF",
-        "Amphenol Corporation",
-        "ClimateHaven"
-      ],
-      "cohortBreakdown": {
-        "BLUE": 1,
-        "SILVER": 1,
-        "GOLD": 1
-      },
-      "people": [
-        {
-          "firstName": "Mariam",
-          "lastName": "Hassoun",
-          "employer": "REDF",
-          "industry": "Economic Development",
-          "function": "Consulting - Strategy",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Jordan",
-          "lastName": "Lamm",
-          "employer": "Amphenol Corporation",
-          "industry": "Aerospace/Aviation",
-          "function": "Management - Project Management",
-          "cohort": "SILVER",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Rebecca",
-          "lastName": "Russavage",
-          "employer": "ClimateHaven",
-          "industry": "Environment - Sustainability",
-          "function": "Strategic Planning",
-          "cohort": "GOLD",
-          "graduationYear": 2027
+          "firstName": "Knuckles",
+          "lastName": "Signetring",
+          "employer": "CloudVault Systems",
+          "industry": "Technology - Other",
+          "function": "Business Development",
+          "cohort": "Green"
         }
       ]
     },
@@ -1379,929 +1751,122 @@
       "lng": -79.3839347,
       "count": 2,
       "topEmployers": [
-        "Bain & Company, Inc.",
-        "Accenture"
+        "Westfield Commercial Bank"
       ],
       "cohortBreakdown": {
-        "GREEN": 2
+        "Gold": 1,
+        "Blue": 1
       },
       "people": [
         {
-          "firstName": "Irene",
-          "lastName": "Cao",
-          "employer": "Bain & Company, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GREEN",
-          "graduationYear": 2027
+          "firstName": "Duke",
+          "lastName": "Loafers",
+          "employer": "Westfield Commercial Bank",
+          "industry": "Financial Services - Commercial Banking",
+          "function": "Finance - Corporate Finance and Internal M&A",
+          "cohort": "Gold"
         },
         {
-          "firstName": "Tejas",
-          "lastName": "Sheth",
-          "employer": "Accenture",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GREEN",
-          "graduationYear": 2028
+          "firstName": "Dash",
+          "lastName": "Termsheet",
+          "employer": "Westfield Commercial Bank",
+          "industry": "Financial Services - Commercial Banking",
+          "function": "Finance - Corporate Finance and Internal M&A",
+          "cohort": "Blue"
         }
       ]
     },
     {
-      "id": "hong-kong-hong-kong",
-      "city": "Hong Kong",
-      "stateOrProvince": "",
-      "country": "Hong Kong",
-      "displayName": "Hong Kong, Hong Kong",
-      "lat": 22.2792968,
-      "lng": 114.1628907,
-      "count": 2,
-      "topEmployers": [
-        "Pacific Investment Management Company ( PIMCO )",
-        "Morgan Stanley"
-      ],
-      "cohortBreakdown": {
-        "SILVER": 1,
-        "GREEN": 1
-      },
-      "people": [
-        {
-          "firstName": "Jason",
-          "lastName": "Chan",
-          "employer": "Pacific Investment Management Company ( PIMCO )",
-          "industry": "Financial Services - Investment Management",
-          "function": "Finance - Other",
-          "cohort": "SILVER",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Samuel",
-          "lastName": "Wong",
-          "employer": "Morgan Stanley",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "newark-nj-united-states",
-      "city": "Newark",
-      "stateOrProvince": "NJ",
+      "id": "purchase-ny-united-states",
+      "city": "Purchase",
+      "stateOrProvince": "NY",
       "country": "United States",
-      "displayName": "Newark, NJ",
-      "lat": 40.735657,
-      "lng": -74.1723667,
+      "displayName": "Purchase, NY",
+      "lat": 41.0409305,
+      "lng": -73.7145746,
       "count": 2,
       "topEmployers": [
-        "McKinsey & Company"
+        "Brightfield Consumer Brands"
       ],
       "cohortBreakdown": {
-        "GREEN": 1,
-        "SILVER": 1
+        "Red": 1,
+        "Silver": 1
       },
       "people": [
         {
-          "firstName": "Aaron",
-          "lastName": "Chough",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GREEN",
-          "graduationYear": 2027
+          "firstName": "Kip",
+          "lastName": "Offshore",
+          "employer": "Brightfield Consumer Brands",
+          "industry": "Consumer Products - Food/Beverage/Tobacco",
+          "function": "Finance - Corporate Finance and Internal M&A",
+          "cohort": "Red"
         },
         {
-          "firstName": "Michelle",
-          "lastName": "Kim",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Other",
-          "cohort": "SILVER",
-          "graduationYear": 2027
+          "firstName": "Scooter",
+          "lastName": "Wealthington",
+          "employer": "Brightfield Consumer Brands",
+          "industry": "Consumer Products - Food/Beverage/Tobacco",
+          "function": "Finance - Corporate Finance and Internal M&A",
+          "cohort": "Silver"
         }
       ]
     },
     {
-      "id": "beaverton-or-united-states",
-      "city": "Beaverton",
-      "stateOrProvince": "OR",
-      "country": "United States",
-      "displayName": "Beaverton, OR",
-      "lat": 45.4871723,
-      "lng": -122.80378,
-      "count": 2,
-      "topEmployers": [
-        "NIKE, Inc."
-      ],
-      "cohortBreakdown": {
-        "BLUE": 1,
-        "GOLD": 1
-      },
-      "people": [
-        {
-          "firstName": "Sierra",
-          "lastName": "Davidson",
-          "employer": "NIKE, Inc.",
-          "industry": "Textiles/Clothing",
-          "function": "Strategic Planning",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Emma",
-          "lastName": "Thornton",
-          "employer": "NIKE, Inc.",
-          "industry": "Textiles/Clothing",
-          "function": "Operations - Purchasing",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "philadelphia-pa-united-states",
-      "city": "Philadelphia",
-      "stateOrProvince": "PA",
-      "country": "United States",
-      "displayName": "Philadelphia, PA",
-      "lat": 39.9527237,
-      "lng": -75.1635262,
-      "count": 2,
-      "topEmployers": [
-        "Philadelphia Green Capital Corp.",
-        "BCG - The Boston Consulting Group, Inc."
-      ],
-      "cohortBreakdown": {
-        "GREEN": 1,
-        "SILVER": 1
-      },
-      "people": [
-        {
-          "firstName": "Dante",
-          "lastName": "Hirata-Epstein",
-          "employer": "Philadelphia Green Capital Corp.",
-          "industry": "Energy - Renewable",
-          "function": "Business Development",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Lexi",
-          "lastName": "Jaster",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "SILVER",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "denver-co-united-states",
-      "city": "Denver",
-      "stateOrProvince": "CO",
-      "country": "United States",
-      "displayName": "Denver, CO",
-      "lat": 39.7392364,
-      "lng": -104.984862,
-      "count": 2,
-      "topEmployers": [
-        "BCG - The Boston Consulting Group, Inc."
-      ],
-      "cohortBreakdown": {
-        "SILVER": 1,
-        "GOLD": 1
-      },
-      "people": [
-        {
-          "firstName": "Katrin",
-          "lastName": "Lewis",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "SILVER",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Alison",
-          "lastName": "Yee",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "pittsburgh-pa-united-states",
-      "city": "Pittsburgh",
-      "stateOrProvince": "PA",
-      "country": "United States",
-      "displayName": "Pittsburgh, PA",
-      "lat": 40.4406968,
-      "lng": -80.0025666,
-      "count": 2,
-      "topEmployers": [
-        "McKinsey & Company",
-        "DICK'S Sporting Goods, Inc."
-      ],
-      "cohortBreakdown": {
-        "RED": 1,
-        "SILVER": 1
-      },
-      "people": [
-        {
-          "firstName": "Charlie",
-          "lastName": "Mihaliak",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Jacob",
-          "lastName": "Pachter",
-          "employer": "DICK'S Sporting Goods, Inc.",
-          "industry": "Retail/eCommerce",
-          "function": "Consulting - Strategy",
-          "cohort": "SILVER",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "austin-tx-united-states",
-      "city": "Austin",
+      "id": "houston-tx-united-states",
+      "city": "Houston",
       "stateOrProvince": "TX",
       "country": "United States",
-      "displayName": "Austin, TX",
-      "lat": 30.2711286,
-      "lng": -97.7436995,
-      "count": 2,
+      "displayName": "Houston, TX",
+      "lat": 29.7589382,
+      "lng": -95.3676974,
+      "count": 1,
       "topEmployers": [
-        "BCG - The Boston Consulting Group, Inc."
+        "Tidewater Strategy"
       ],
       "cohortBreakdown": {
-        "GOLD": 1,
-        "BLUE": 1
+        "Red": 1
       },
       "people": [
         {
-          "firstName": "Ethan",
-          "lastName": "Minter",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
+          "firstName": "Slab",
+          "lastName": "Polo-Match",
+          "employer": "Tidewater Strategy",
           "industry": "Consulting - General Management",
           "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Gurnoor",
-          "lastName": "Singh",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "BLUE",
-          "graduationYear": 2027
+          "cohort": "Red"
         }
       ]
     },
     {
-      "id": "redmond-wa-united-states",
-      "city": "Redmond",
-      "stateOrProvince": "WA",
-      "country": "United States",
-      "displayName": "Redmond, WA",
-      "lat": 47.6694141,
-      "lng": -122.1238767,
-      "count": 2,
+      "id": "tokyo-japan",
+      "city": "Tokyo",
+      "stateOrProvince": "",
+      "country": "Japan",
+      "displayName": "Tokyo, Japan",
+      "lat": 35.6768601,
+      "lng": 139.7638947,
+      "count": 1,
       "topEmployers": [
-        "Microsoft Corporation"
+        "Luminos Technologies"
       ],
       "cohortBreakdown": {
-        "GOLD": 2
+        "Red": 1
       },
       "people": [
         {
-          "firstName": "Danny",
-          "lastName": "Nguyen",
-          "employer": "Microsoft Corporation",
+          "firstName": "Fifi",
+          "lastName": "Shareholder",
+          "employer": "Luminos Technologies",
           "industry": "Technology - Software/Internet",
-          "function": "Marketing - Product Development",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        },
-        {
-          "firstName": "Leslie",
-          "lastName": "Nut-Komlah",
-          "employer": "Microsoft Corporation",
-          "industry": "Technology - Software/Internet",
-          "function": "Finance - Corporate Finance and Internal M&A",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "paris-france",
-      "city": "Paris",
-      "stateOrProvince": "",
-      "country": "France",
-      "displayName": "Paris, France",
-      "lat": 48.8534951,
-      "lng": 2.3483915,
-      "count": 1,
-      "topEmployers": [
-        "Amphenol Corporation"
-      ],
-      "cohortBreakdown": {
-        "BLUE": 1
-      },
-      "people": [
-        {
-          "firstName": "Arun",
-          "lastName": "Arun",
-          "employer": "Amphenol Corporation",
-          "industry": "Manufacturing",
-          "function": "Business Development",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "bentonville-ar-united-states",
-      "city": "Bentonville",
-      "stateOrProvince": "AR",
-      "country": "United States",
-      "displayName": "Bentonville, AR",
-      "lat": 36.3728608,
-      "lng": -94.208787,
-      "count": 1,
-      "topEmployers": [
-        "Walmart"
-      ],
-      "cohortBreakdown": {
-        "GOLD": 1
-      },
-      "people": [
-        {
-          "firstName": "Liana",
-          "lastName": "Biasucci",
-          "employer": "Walmart",
-          "industry": "Retail/eCommerce",
-          "function": "Sustainability",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "sao-paulo-brazil",
-      "city": "Sao Paulo",
-      "stateOrProvince": "",
-      "country": "Brazil",
-      "displayName": "Sao Paulo, Brazil",
-      "lat": -23.5506507,
-      "lng": -46.6333824,
-      "count": 1,
-      "topEmployers": [
-        "McKinsey & Company"
-      ],
-      "cohortBreakdown": {
-        "GOLD": 1
-      },
-      "people": [
-        {
-          "firstName": "Ilmo",
-          "lastName": "Caldas Neto",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "shenzhen-china",
-      "city": "Shenzhen",
-      "stateOrProvince": "",
-      "country": "China",
-      "displayName": "Shenzhen, China",
-      "lat": 22.5445741,
-      "lng": 114.0545429,
-      "count": 1,
-      "topEmployers": [
-        "BCG - The Boston Consulting Group, Inc."
-      ],
-      "cohortBreakdown": {
-        "RED": 1
-      },
-      "people": [
-        {
-          "firstName": "Keshan",
-          "lastName": "Chen",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "hsinchu-taiwan",
-      "city": "Hsinchu",
-      "stateOrProvince": "",
-      "country": "Taiwan",
-      "displayName": "Hsinchu, Taiwan",
-      "lat": 24.8066333,
-      "lng": 120.9686833,
-      "count": 1,
-      "topEmployers": [
-        "Taiwan Semiconductor Manufacturing Company, Ltd. ( TSMC )"
-      ],
-      "cohortBreakdown": {
-        "RED": 1
-      },
-      "people": [
-        {
-          "firstName": "Pin-Hua",
-          "lastName": "Chen",
-          "employer": "Taiwan Semiconductor Manufacturing Company, Ltd. ( TSMC )",
-          "industry": "Manufacturing",
-          "function": "Operations - Management",
-          "cohort": "RED",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "new-brunswick-nj-united-states",
-      "city": "New Brunswick",
-      "stateOrProvince": "NJ",
-      "country": "United States",
-      "displayName": "New Brunswick, NJ",
-      "lat": 40.4951365,
-      "lng": -74.4439254,
-      "count": 1,
-      "topEmployers": [
-        "J&J - Johnson & Johnson"
-      ],
-      "cohortBreakdown": {
-        "BLUE": 1
-      },
-      "people": [
-        {
-          "firstName": "Nick",
-          "lastName": "DiNella",
-          "employer": "J&J - Johnson & Johnson",
-          "industry": "Healthcare - Pharmaceutical",
-          "function": "Human Resources - Generalist",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "san-diego-ca-united-states",
-      "city": "San Diego",
-      "stateOrProvince": "CA",
-      "country": "United States",
-      "displayName": "San Diego, CA",
-      "lat": 32.7174202,
-      "lng": -117.162772,
-      "count": 1,
-      "topEmployers": [
-        "Deloitte Consulting"
-      ],
-      "cohortBreakdown": {
-        "BLUE": 1
-      },
-      "people": [
-        {
-          "firstName": "Rachel",
-          "lastName": "Feldman",
-          "employer": "Deloitte Consulting",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Human Capital",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "wixom-mi-united-states",
-      "city": "Wixom",
-      "stateOrProvince": "MI",
-      "country": "United States",
-      "displayName": "Wixom, MI",
-      "lat": 42.5246873,
-      "lng": -83.5363637,
-      "count": 1,
-      "topEmployers": [
-        "Amazon.com"
-      ],
-      "cohortBreakdown": {
-        "GREEN": 1
-      },
-      "people": [
-        {
-          "firstName": "Mike",
-          "lastName": "Fink",
-          "employer": "Amazon.com",
-          "industry": "Retail/eCommerce",
-          "function": "Operations - Management",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "foster-city-ca-united-states",
-      "city": "Foster City",
-      "stateOrProvince": "CA",
-      "country": "United States",
-      "displayName": "Foster City, CA",
-      "lat": 37.5600336,
-      "lng": -122.2688522,
-      "count": 1,
-      "topEmployers": [
-        "Visa"
-      ],
-      "cohortBreakdown": {
-        "GREEN": 1
-      },
-      "people": [
-        {
-          "firstName": "Justin",
-          "lastName": "Ko",
-          "employer": "Visa",
-          "industry": "Financial Services - Diversified Financial Services",
-          "function": "Finance - Corporate Finance and Internal M&A",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "saint-paul-park-mn-united-states",
-      "city": "Saint Paul Park",
-      "stateOrProvince": "MN",
-      "country": "United States",
-      "displayName": "Saint Paul Park, MN",
-      "lat": 44.847917,
-      "lng": -92.9980516,
-      "count": 1,
-      "topEmployers": [
-        "3M Company"
-      ],
-      "cohortBreakdown": {
-        "BLUE": 1
-      },
-      "people": [
-        {
-          "firstName": "Longchang",
-          "lastName": "Li",
-          "employer": "3M Company",
-          "industry": "Manufacturing",
-          "function": "Business Development",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "charlotte-nc-united-states",
-      "city": "Charlotte",
-      "stateOrProvince": "NC",
-      "country": "United States",
-      "displayName": "Charlotte, NC",
-      "lat": 35.2272086,
-      "lng": -80.8430827,
-      "count": 1,
-      "topEmployers": [
-        "McKinsey & Company"
-      ],
-      "cohortBreakdown": {
-        "GOLD": 1
-      },
-      "people": [
-        {
-          "firstName": "Cullen",
-          "lastName": "McGahan",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "atlanta-ga-united-states",
-      "city": "Atlanta",
-      "stateOrProvince": "GA",
-      "country": "United States",
-      "displayName": "Atlanta, GA",
-      "lat": 33.7544657,
-      "lng": -84.3898151,
-      "count": 1,
-      "topEmployers": [
-        "McKinsey & Company"
-      ],
-      "cohortBreakdown": {
-        "RED": 1
-      },
-      "people": [
-        {
-          "firstName": "Shashvat",
-          "lastName": "Parikh",
-          "employer": "McKinsey & Company",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "menlo-park-ca-united-states",
-      "city": "Menlo Park",
-      "stateOrProvince": "CA",
-      "country": "United States",
-      "displayName": "Menlo Park, CA",
-      "lat": 37.4519671,
-      "lng": -122.177992,
-      "count": 1,
-      "topEmployers": [
-        "Morgan Stanley"
-      ],
-      "cohortBreakdown": {
-        "GOLD": 1
-      },
-      "people": [
-        {
-          "firstName": "Kshitija",
-          "lastName": "Patel",
-          "employer": "Morgan Stanley",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "GOLD",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "miami-fl-united-states",
-      "city": "Miami",
-      "stateOrProvince": "FL",
-      "country": "United States",
-      "displayName": "Miami, FL",
-      "lat": 25.7741566,
-      "lng": -80.1935973,
-      "count": 1,
-      "topEmployers": [
-        "BCG - The Boston Consulting Group, Inc."
-      ],
-      "cohortBreakdown": {
-        "GREEN": 1
-      },
-      "people": [
-        {
-          "firstName": "Juanita",
-          "lastName": "Penuela",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "GREEN",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "mexico-city-mexico",
-      "city": "Mexico City",
-      "stateOrProvince": "",
-      "country": "Mexico",
-      "displayName": "Mexico City, Mexico",
-      "lat": 19.3207722,
-      "lng": -99.1514678,
-      "count": 1,
-      "topEmployers": [
-        "Kearney"
-      ],
-      "cohortBreakdown": {
-        "SILVER": 1
-      },
-      "people": [
-        {
-          "firstName": "Fernando",
-          "lastName": "Ramirez Arce",
-          "employer": "Kearney",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "SILVER",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "norwalk-ct-united-states",
-      "city": "Norwalk",
-      "stateOrProvince": "CT",
-      "country": "United States",
-      "displayName": "Norwalk, CT",
-      "lat": 41.1175966,
-      "lng": -73.4078968,
-      "count": 1,
-      "topEmployers": [
-        "Graham Capital Management"
-      ],
-      "cohortBreakdown": {
-        "BLUE": 1
-      },
-      "people": [
-        {
-          "firstName": "Mikkel",
-          "lastName": "Shiffman Borggren",
-          "employer": "Graham Capital Management",
-          "industry": "Financial Services - Investment Management",
-          "function": "Finance - Quant",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "london-united-kingdom",
-      "city": "London",
-      "stateOrProvince": "",
-      "country": "United Kingdom",
-      "displayName": "London, United Kingdom",
-      "lat": 51.5074456,
-      "lng": -0.1277653,
-      "count": 1,
-      "topEmployers": [
-        "BCG - The Boston Consulting Group, Inc."
-      ],
-      "cohortBreakdown": {
-        "RED": 1
-      },
-      "people": [
-        {
-          "firstName": "Oliver",
-          "lastName": "Smith",
-          "employer": "BCG - The Boston Consulting Group, Inc.",
-          "industry": "Consulting - General Management",
-          "function": "Consulting - Strategy",
-          "cohort": "RED",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "berkeley-ca-united-states",
-      "city": "Berkeley",
-      "stateOrProvince": "CA",
-      "country": "United States",
-      "displayName": "Berkeley, CA",
-      "lat": 37.8708393,
-      "lng": -122.272863,
-      "count": 1,
-      "topEmployers": [
-        "Berkeley Summit House"
-      ],
-      "cohortBreakdown": {
-        "RED": 1
-      },
-      "people": [
-        {
-          "firstName": "Xiaotong",
-          "lastName": "Sun",
-          "employer": "Berkeley Summit House",
-          "industry": "Financial Services - Venture Capital",
-          "function": "Strategic Planning",
-          "cohort": "RED",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "san-jose-ca-united-states",
-      "city": "San Jose",
-      "stateOrProvince": "CA",
-      "country": "United States",
-      "displayName": "San Jose, CA",
-      "lat": 37.3361663,
-      "lng": -121.890591,
-      "count": 1,
-      "topEmployers": [
-        "Adobe Systems Incorporated"
-      ],
-      "cohortBreakdown": {
-        "BLUE": 1
-      },
-      "people": [
-        {
-          "firstName": "Daisy Xiaoxiao",
-          "lastName": "Wu",
-          "employer": "Adobe Systems Incorporated",
-          "industry": "Technology - Software/Internet",
-          "function": "Information Technology - Systems Management",
-          "cohort": "BLUE",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "minneapolis-mn-united-states",
-      "city": "Minneapolis",
-      "stateOrProvince": "MN",
-      "country": "United States",
-      "displayName": "Minneapolis, MN",
-      "lat": 44.9772995,
-      "lng": -93.2654692,
-      "count": 1,
-      "topEmployers": [
-        "Harris Williams"
-      ],
-      "cohortBreakdown": {
-        "GOLD": 1
-      },
-      "people": [
-        {
-          "firstName": "Sanath",
-          "lastName": "Yeduri",
-          "employer": "Harris Williams",
-          "industry": "Financial Services - Investment Banking/Brokerage",
-          "function": "Finance - Investment Banking",
-          "cohort": "GOLD",
-          "graduationYear": 2028
-        }
-      ]
-    },
-    {
-      "id": "delaware-city-de-united-states",
-      "city": "Delaware City",
-      "stateOrProvince": "DE",
-      "country": "United States",
-      "displayName": "Delaware City, DE",
-      "lat": 39.5778901,
-      "lng": -75.588815,
-      "count": 1,
-      "topEmployers": [
-        "Amazon.com"
-      ],
-      "cohortBreakdown": {
-        "SILVER": 1
-      },
-      "people": [
-        {
-          "firstName": "Jenny",
-          "lastName": "Yuk",
-          "employer": "Amazon.com",
-          "industry": "Retail/eCommerce",
-          "function": "Operations - Management",
-          "cohort": "SILVER",
-          "graduationYear": 2027
-        }
-      ]
-    },
-    {
-      "id": "santa-monica-ca-united-states",
-      "city": "Santa Monica",
-      "stateOrProvince": "CA",
-      "country": "United States",
-      "displayName": "Santa Monica, CA",
-      "lat": 34.0194704,
-      "lng": -118.491227,
-      "count": 1,
-      "topEmployers": [
-        "Kite Pharma, Inc."
-      ],
-      "cohortBreakdown": {
-        "GOLD": 1
-      },
-      "people": [
-        {
-          "firstName": "David",
-          "lastName": "Zhou",
-          "employer": "Kite Pharma, Inc.",
-          "industry": "Healthcare - Pharmaceutical",
           "function": "Product Management",
-          "cohort": "GOLD",
-          "graduationYear": 2027
+          "cohort": "Red"
         }
       ]
     }
   ],
   "meta": {
-    "generatedAt": "2026-03-31T19:28:48.252Z",
-    "sourceFile": "SOM Internships Reported As 25MAR.csv",
+    "generatedAt": "2026-04-17T18:04:12.230Z",
+    "sourceFile": "internships-dummy.csv",
     "ungeocodedLocations": []
   }
 }
