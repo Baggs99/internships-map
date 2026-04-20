@@ -154,27 +154,27 @@ export default function App() {
         </div>
 
         {/* Mobile tab bar — hidden on desktop */}
-        <nav className="md:hidden flex-shrink-0 flex bg-white border-t border-gray-200 shadow-lg">
+        <nav className="md:hidden flex-shrink-0 flex bg-yale-blue shadow-lg">
           <button
             onClick={() => setMobileTab('map')}
-            className={`flex-1 flex flex-col items-center justify-center py-2.5 text-xs font-semibold transition-colors ${
+            className={`flex-1 flex flex-col items-center justify-center py-3 text-sm font-bold transition-all ${
               mobileTab === 'map'
-                ? 'text-yale-blue border-t-2 border-yale-blue -mt-px'
-                : 'text-gray-400'
+                ? 'text-white border-t-4 border-yale-gold'
+                : 'text-white/50 border-t-4 border-transparent'
             }`}
           >
-            <span className="text-base mb-0.5">🗺</span>
+            <span className="text-xl mb-0.5">🗺</span>
             Map
           </button>
           <button
             onClick={() => setMobileTab('list')}
-            className={`flex-1 flex flex-col items-center justify-center py-2.5 text-xs font-semibold transition-colors ${
+            className={`flex-1 flex flex-col items-center justify-center py-3 text-sm font-bold transition-all ${
               mobileTab === 'list'
-                ? 'text-yale-blue border-t-2 border-yale-blue -mt-px'
-                : 'text-gray-400'
+                ? 'text-white border-t-4 border-yale-gold'
+                : 'text-white/50 border-t-4 border-transparent'
             }`}
           >
-            <span className="text-base mb-0.5">📋</span>
+            <span className="text-xl mb-0.5">📋</span>
             List
           </button>
         </nav>
