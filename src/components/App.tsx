@@ -154,28 +154,32 @@ export default function App() {
         </div>
 
         {/* Mobile tab bar — hidden on desktop */}
-        <nav className="md:hidden flex-shrink-0 flex bg-yale-blue shadow-lg">
+        <nav
+          className="md:hidden flex-shrink-0 flex bg-yale-gold"
+          style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
+        >
           <button
             onClick={() => setMobileTab('map')}
-            className={`flex-1 flex flex-col items-center justify-center py-3 text-sm font-bold transition-all ${
+            className={`flex-1 flex flex-col items-center justify-center py-4 transition-all ${
               mobileTab === 'map'
-                ? 'text-white border-t-4 border-yale-gold'
-                : 'text-white/50 border-t-4 border-transparent'
+                ? 'text-yale-blue'
+                : 'text-yellow-800/50'
             }`}
           >
-            <span className="text-xl mb-0.5">🗺</span>
-            Map
+            <span className="text-2xl">🗺</span>
+            <span className="text-sm font-extrabold mt-0.5 uppercase tracking-wide">Map</span>
           </button>
+          <div className="w-px bg-yellow-600/30 my-3" />
           <button
             onClick={() => setMobileTab('list')}
-            className={`flex-1 flex flex-col items-center justify-center py-3 text-sm font-bold transition-all ${
+            className={`flex-1 flex flex-col items-center justify-center py-4 transition-all ${
               mobileTab === 'list'
-                ? 'text-white border-t-4 border-yale-gold'
-                : 'text-white/50 border-t-4 border-transparent'
+                ? 'text-yale-blue'
+                : 'text-yellow-800/50'
             }`}
           >
-            <span className="text-xl mb-0.5">📋</span>
-            List
+            <span className="text-2xl">📋</span>
+            <span className="text-sm font-extrabold mt-0.5 uppercase tracking-wide">List</span>
           </button>
         </nav>
       </div>
