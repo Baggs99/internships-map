@@ -263,10 +263,11 @@ interface Props {
 export default function MapView({ locations, selectedId, mapId, onSelectCity }: Props) {
   const [showHint, setShowHint] = useState(true);
 
-  // Dismiss the hint the first time the user zooms or clicks the map
-  function dismissHint() {
-    setShowHint(false);
-  }
+  // Auto-dismiss after 6 seconds; also dismisses on click
+  useEffect(() => {
+    const t = setTimeout(() => setShowHint(false), 6000);
+    return () => clearTimeout(t);
+  }, []);
 
   return (
     <div className="flex-1 relative overflow-hidden">
@@ -281,8 +282,7 @@ export default function MapView({ locations, selectedId, mapId, onSelectCity }: 
         fullscreenControl={true}
         zoomControl={true}
         className="w-full h-full"
-        onClick={() => { dismissHint(); onSelectCity(null); }}
-        onZoomChanged={dismissHint}
+        onClick={() => { setShowHint(false); onSelectCity(null); }}
       >
         <ClusterMarkers
           locations={locations}
@@ -291,15 +291,16 @@ export default function MapView({ locations, selectedId, mapId, onSelectCity }: 
         />
       </GoogleMap>
 
-      {/* Zoom hint — dismisses on first zoom or click */}
-      {showHint && (
-        <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10 pointer-events-none animate-bounce">
-          <div className="flex items-center gap-2 bg-yale-blue text-white px-5 py-2.5 rounded-full shadow-lg border-2 border-white/30 whitespace-nowrap">
-            <span className="text-lg">🔍</span>
-            <span className="font-semibold text-sm tracking-wide">Zoom in to explore where students are going!</span>
-          </div>
+      {/* Zoom hint — visible for 6 seconds, dismisses on click */}
+      <div
+        className="absolute top-4 left-1/2 -translate-x-1/2 z-10 pointer-events-none transition-opacity duration-700"
+        style={{ opacity: showHint ? 1 : 0 }}
+      >
+        <div className="flex items-center gap-2 bg-yale-blue text-white px-5 py-2.5 rounded-full shadow-lg border-2 border-white/30 whitespace-nowrap animate-bounce">
+          <span className="text-lg">🔍</span>
+          <span className="font-semibold text-sm tracking-wide">Zoom in to explore where students are going!</span>
         </div>
-      )}
+      </div>
 
       {/* Legend */}
       <div className="absolute bottom-8 left-3 bg-white/90 backdrop-blur-sm rounded-xl shadow-card px-3 py-2 text-xs text-gray-600 space-y-1.5 pointer-events-none">
