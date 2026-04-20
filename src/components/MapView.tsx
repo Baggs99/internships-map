@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback } from 'react';
+import { useEffect, useRef, useCallback, useState } from 'react';
 import { Map as GoogleMap, useMap } from '@vis.gl/react-google-maps';
 import { MarkerClusterer, SuperClusterAlgorithm } from '@googlemaps/markerclusterer';
 import type { Location } from '../types';
@@ -261,6 +261,13 @@ interface Props {
 }
 
 export default function MapView({ locations, selectedId, mapId, onSelectCity }: Props) {
+  const [showHint, setShowHint] = useState(true);
+
+  // Dismiss the hint the first time the user zooms or clicks the map
+  function dismissHint() {
+    setShowHint(false);
+  }
+
   return (
     <div className="flex-1 relative overflow-hidden">
       <GoogleMap
@@ -274,7 +281,8 @@ export default function MapView({ locations, selectedId, mapId, onSelectCity }: 
         fullscreenControl={true}
         zoomControl={true}
         className="w-full h-full"
-        onClick={() => onSelectCity(null)}
+        onClick={() => { dismissHint(); onSelectCity(null); }}
+        onZoomChanged={dismissHint}
       >
         <ClusterMarkers
           locations={locations}
@@ -282,6 +290,16 @@ export default function MapView({ locations, selectedId, mapId, onSelectCity }: 
           onSelectCity={onSelectCity}
         />
       </GoogleMap>
+
+      {/* Zoom hint — dismisses on first zoom or click */}
+      {showHint && (
+        <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10 pointer-events-none animate-bounce">
+          <div className="flex items-center gap-2 bg-yale-blue text-white px-5 py-2.5 rounded-full shadow-lg border-2 border-white/30 whitespace-nowrap">
+            <span className="text-lg">🔍</span>
+            <span className="font-semibold text-sm tracking-wide">Zoom in to explore where students are going!</span>
+          </div>
+        </div>
+      )}
 
       {/* Legend */}
       <div className="absolute bottom-8 left-3 bg-white/90 backdrop-blur-sm rounded-xl shadow-card px-3 py-2 text-xs text-gray-600 space-y-1.5 pointer-events-none">
