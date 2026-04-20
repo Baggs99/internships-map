@@ -16,20 +16,38 @@ interface SelectProps {
 }
 
 function FilterSelect({ label, value, options, onChange }: SelectProps) {
+  const active = value !== '';
+  // Short label shown inside the box as a prefix when no value is selected
+  const shortLabel = label.replace('All ', '');
   return (
-    <select
-      value={value}
-      onChange={(e) => onChange(e.target.value)}
-      className="h-8 text-xs bg-white border border-gray-200 rounded-lg px-2.5 pr-7 text-gray-700 focus:outline-none focus:ring-2 focus:ring-yale-blue/30 focus:border-yale-blue appearance-none cursor-pointer min-w-0 max-w-[160px]"
-      style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%236B7280' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 6px center', backgroundSize: '14px' }}
-    >
-      <option value="">{label}</option>
-      {options.map((o) => (
-        <option key={o} value={o}>
-          {o}
-        </option>
-      ))}
-    </select>
+    <div className="relative flex flex-col flex-shrink-0 min-w-0">
+      {/* Floating label above when a value is active */}
+      {active && (
+        <span className="absolute -top-2 left-2 z-10 bg-white px-1 text-[9px] font-semibold text-yale-blue uppercase tracking-wide leading-none">
+          {shortLabel}
+        </span>
+      )}
+      <select
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        className={`h-8 text-xs rounded-lg px-2.5 pr-7 appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-yale-blue/30 max-w-[160px] transition-colors ${
+          active
+            ? 'bg-yale-blue/5 border-2 border-yale-blue text-yale-blue font-semibold'
+            : 'bg-white border border-gray-300 text-gray-500'
+        }`}
+        style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='${active ? '%2300356B' : '%236B7280'}' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E")`,
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'right 6px center',
+          backgroundSize: '14px',
+        }}
+      >
+        <option value="">{label}</option>
+        {options.map((o) => (
+          <option key={o} value={o}>{o}</option>
+        ))}
+      </select>
+    </div>
   );
 }
 
@@ -120,11 +138,11 @@ export default function FilterBar({ filters, options, hasActiveFilters, onChange
 
         {/* Sort */}
         <div className="flex items-center gap-1.5 flex-shrink-0">
-          <span className="text-xs text-gray-400">Sort:</span>
+          <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide">Sort:</span>
           <select
             value={filters.sortBy}
             onChange={(e) => update('sortBy', e.target.value as FilterState['sortBy'])}
-            className="h-8 text-xs bg-white border border-gray-200 rounded-lg px-2.5 pr-7 text-gray-700 focus:outline-none focus:ring-2 focus:ring-yale-blue/30 focus:border-yale-blue appearance-none cursor-pointer"
+            className="h-8 text-xs bg-white border border-gray-300 rounded-lg px-2.5 pr-7 text-gray-600 font-medium focus:outline-none focus:ring-2 focus:ring-yale-blue/30 focus:border-yale-blue appearance-none cursor-pointer"
             style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%236B7280' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 6px center', backgroundSize: '14px' }}
           >
             <option value="count">Most Interns</option>
