@@ -50,7 +50,7 @@ export default function FilterBar({ filters, options, hasActiveFilters, onChange
             placeholder="Search city or employer…"
             value={filters.search}
             onChange={(e) => update('search', e.target.value)}
-            className="h-8 pl-8 pr-3 text-xs bg-white border border-gray-200 rounded-lg text-gray-700 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-yale-blue/30 focus:border-yale-blue w-48"
+            className="h-8 pl-8 pr-3 text-xs bg-white border border-gray-200 rounded-lg text-gray-700 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-yale-blue/30 focus:border-yale-blue w-32 md:w-48"
           />
         </div>
 

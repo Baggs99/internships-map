@@ -55,6 +55,7 @@ export default function App() {
   const { data, loading, error } = useInternshipsData();
   const [selectedCityId, setSelectedCityId] = useState<string | null>(null);
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
+  const [mobileTab, setMobileTab] = useState<'map' | 'list'>('map');
 
   const filteredLocations = useMemo(() => {
     if (!data) return [];
@@ -92,6 +93,8 @@ export default function App() {
 
   const handleSelectCity = useCallback((id: string | null) => {
     setSelectedCityId(id);
+    // On mobile, auto-switch to List tab when a city is tapped so details show
+    if (id) setMobileTab('list');
   }, []);
 
   const handleResetFilters = useCallback(() => {
@@ -117,7 +120,7 @@ export default function App() {
 
   return (
     <APIProvider apiKey={apiKey ?? ''} libraries={['marker']}>
-      <div className="h-screen flex flex-col overflow-hidden bg-gray-50">
+      <div className="h-screen h-dvh flex flex-col overflow-hidden bg-gray-50">
         <Header summary={filteredSummary} totalSummary={data.summary} />
         <FilterBar
           filters={filters}
@@ -126,20 +129,55 @@ export default function App() {
           onChange={setFilters}
           onReset={handleResetFilters}
         />
+
+        {/* Main content — side-by-side on desktop, full-screen tabs on mobile */}
         <div className="flex flex-1 overflow-hidden">
-          <MapView
-            locations={filteredLocations}
-            selectedId={selectedCityId}
-            mapId={mapId}
-            onSelectCity={handleSelectCity}
-          />
-          <Sidebar
-            locations={filteredLocations}
-            selectedCity={selectedCity}
-            onSelectCity={handleSelectCity}
-            summary={filteredSummary}
-          />
+          {/* Map — always mounted, hidden on mobile when list tab is active */}
+          <div className={`flex-1 overflow-hidden ${mobileTab === 'list' ? 'hidden md:flex' : 'flex'} flex-col`}>
+            <MapView
+              locations={filteredLocations}
+              selectedId={selectedCityId}
+              mapId={mapId}
+              onSelectCity={handleSelectCity}
+            />
+          </div>
+
+          {/* Sidebar — full screen on mobile list tab, right panel on desktop */}
+          <div className={`${mobileTab === 'map' ? 'hidden md:flex' : 'flex'} w-full md:w-96 flex-col overflow-hidden`}>
+            <Sidebar
+              locations={filteredLocations}
+              selectedCity={selectedCity}
+              onSelectCity={handleSelectCity}
+              summary={filteredSummary}
+            />
+          </div>
         </div>
+
+        {/* Mobile tab bar — hidden on desktop */}
+        <nav className="md:hidden flex-shrink-0 flex bg-white border-t border-gray-200 shadow-lg">
+          <button
+            onClick={() => setMobileTab('map')}
+            className={`flex-1 flex flex-col items-center justify-center py-2.5 text-xs font-semibold transition-colors ${
+              mobileTab === 'map'
+                ? 'text-yale-blue border-t-2 border-yale-blue -mt-px'
+                : 'text-gray-400'
+            }`}
+          >
+            <span className="text-base mb-0.5">🗺</span>
+            Map
+          </button>
+          <button
+            onClick={() => setMobileTab('list')}
+            className={`flex-1 flex flex-col items-center justify-center py-2.5 text-xs font-semibold transition-colors ${
+              mobileTab === 'list'
+                ? 'text-yale-blue border-t-2 border-yale-blue -mt-px'
+                : 'text-gray-400'
+            }`}
+          >
+            <span className="text-base mb-0.5">📋</span>
+            List
+          </button>
+        </nav>
       </div>
     </APIProvider>
   );

@@ -71,14 +71,14 @@ function MiniStat({ value, label }: { value: number; label: string }) {
 export default function Sidebar({ locations, selectedCity, onSelectCity, summary }: Props) {
   if (selectedCity) {
     return (
-      <aside className="w-96 flex flex-col bg-white border-l border-gray-200 overflow-hidden shadow-sidebar flex-shrink-0">
+      <aside className="w-full md:w-96 flex flex-col bg-white md:border-l border-gray-200 overflow-hidden shadow-sidebar flex-shrink-0">
         <CityDetail city={selectedCity} onClose={() => onSelectCity(null)} />
       </aside>
     );
   }
 
   return (
-    <aside className="w-96 flex flex-col bg-white border-l border-gray-200 overflow-hidden shadow-sidebar flex-shrink-0">
+    <aside className="w-full md:w-96 flex flex-col bg-white md:border-l border-gray-200 overflow-hidden shadow-sidebar flex-shrink-0">
       {/* Overview */}
       <OverviewSection locations={locations} summary={summary} />
 
