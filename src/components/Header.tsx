@@ -41,9 +41,14 @@ export default function Header({ summary, totalSummary }: Props) {
             <p className="text-blue-200 text-xs leading-tight mt-0.5">
               Explore where classmates are interning by city, employer &amp; industry
             </p>
-            <span className="inline-block mt-1 px-2 py-0.5 bg-yellow-400 text-yellow-900 text-[11px] font-bold uppercase tracking-wider rounded">
-              ⚠ Demo — Fake Data
-            </span>
+            <div className="flex items-center gap-2 mt-1">
+              <span className="inline-block px-2 py-0.5 bg-yellow-400 text-yellow-900 text-[11px] font-bold uppercase tracking-wider rounded">
+                ⚠ Demo — Fake Data
+              </span>
+              <span className="text-blue-200 text-[11px] font-medium">
+                🔍 Zoom in to explore where students are going!
+              </span>
+            </div>
           </div>
         </div>
 
